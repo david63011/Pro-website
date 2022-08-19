@@ -21,7 +21,7 @@
   margin-left: 230px;
 }
 
-.flex {
+.main-section {
   max-width: 375px;
   flex-wrap: wrap;
 }
@@ -142,4 +142,31 @@
   position: absolute;
   top: 670px;
   left: 90px;
+}
+
+.icon-row {
+  display: flex;
+  position: absolute;
+  top: 650px;
+  left: 100px;
+}
+
+.tweet {
+  margin-right: 20px;
+}
+
+.linked {
+  margin-right: 20px;
+}
+
+.med {
+  margin-right: 20px;
+}
+.git {
+  margin-right: 20px;
+}
+
+.hb-button {
+  height: 15px;
+  width: 15px;
 }
