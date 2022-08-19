@@ -179,6 +179,7 @@
   line-height: 52px;
   color: #172b4d;
 }
+
 .work-2 {
   font-size: 40px;
   line-height: 52px;
@@ -191,7 +192,7 @@
 }
 
 .project-name1 {
-  font-style: semi bold;
+  font-style: bold;
   font-size: 35px;
   line-height: 32px;
   color: #3a4a42;
@@ -199,7 +200,7 @@
 }
 
 .project-name-two {
-  font-style: semi bold;
+  font-style: bold;
   font-size: 35px;
   line-height: 32px;
   color: #3a4a42;
@@ -214,7 +215,6 @@
   display: grid;
   grid-template-rows: 1fr 1fr;
   border-color: #d0d9d4;
-
   border-width: 1px;
   border-style: solid;
   margin-top: 30px;
@@ -266,14 +266,17 @@
   text-decoration: underline rgb(6, 14, 243);
   border: 1px solid rgb(6, 14, 243);
 }
+
 .css:hover {
   text-decoration: underline rgb(6, 14, 243);
   border: 1px solid rgb(6, 14, 243);
 }
+
 .js:hover {
   text-decoration: underline rgb(6, 14, 243);
   border: 1px solid rgb(6, 14, 243);
 }
+
 .html:hover {
   text-decoration: underline rgb(6, 14, 243);
   border: 1px solid rgb(6, 14, 243);
