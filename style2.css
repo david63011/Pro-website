@@ -297,17 +297,11 @@
   margin-top: 40px;
 }
 
-.see-project-btn:hover {
-  cursor: pointer;
-}
-
-.resume-btn:hover {
-  cursor: pointer;
-}
 .about {
   height: 48px;
   width: 351px;
 }
+
 .about-me {
   font-weight: bold;
   font-size: 40px;
@@ -334,6 +328,7 @@
   color: #42526e;
   margin-left: 15px;
 }
+
 .text3 {
   font-size: 23px;
   line-height: 32px;
@@ -373,11 +368,13 @@
 .resume-btn:hover {
   text-decoration: underline rgb(6, 14, 243);
   border: 1px solid rgb(6, 14, 243);
+  cursor: pointer;
 }
 
 .see-project-btn:hover {
   text-decoration: underline rgb(6, 14, 243);
   border: 1px solid rgb(6, 14, 243);
+  cursor: pointer;
 }
 
 .language-container {
@@ -390,70 +387,7 @@
   border-color: #d0d9d4;
   border-width: 1px;
   border-style: solid;
-  margin-top: 30px;
+  margin-top: 100px;
   margin-left: 20px;
   background-color: #d0d9d4;
-  margin-left: 20px;
-}
-
-.center-row {
-  justify-content: space-between;
-  display: flex;
-  margin-bottom: 80px;
-}
-.languages {
-  color: #344563;
-  font-size: 32px;
-  line-height: 32px;
-}
-.language-column {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.java-language {
-  background-color: white;
-  color: #36b37e;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 15px;
-  padding-left: 15px;
-  font-size: 15px;
-  line-height: 16px;
-  border-radius: 8px;
-}
-
-.ruby-language {
-  background-color: white;
-  color: #36b37e;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 15px;
-  padding-left: 15px;
-  font-size: 15px;
-  line-height: 16px;
-  border-radius: 8px;
-}
-.html-language {
-  background-color: white;
-  color: #36b37e;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 15px;
-  padding-left: 15px;
-  font-size: 15px;
-  line-height: 16px;
-  border-radius: 8px;
-}
-.css-language {
-  background-color: white;
-  color: #36b37e;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 15px;
-  padding-left: 15px;
-  font-size: 15px;
-  line-height: 16px;
-  border-radius: 8px;
 }
