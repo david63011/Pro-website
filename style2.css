@@ -7,7 +7,7 @@
 
 .welcome {
   font-family: Arial, Helvetica, sans-serif;
-  font-style: semi bold;
+  font-style: bold;
   font-size: 20px;
   line-height: 28px;
   margin-left: 35px;
@@ -162,6 +162,136 @@
 .med {
   margin-right: 20px;
 }
+
 .git {
   margin-right: 20px;
+}
+
+.top-one {
+  display: flex;
+  align-items: center;
+  margin-left: -1100px;
+  flex-direction: column;
+}
+
+.work {
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+.work-2 {
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-top: -20px;
+}
+
+.Indicator {
+  margin-left: 160px;
+}
+
+.project-name1 {
+  font-style: semi bold;
+  font-size: 35px;
+  line-height: 32px;
+  color: #3a4a42;
+  margin-left: 25px;
+}
+
+.project-name-two {
+  font-style: semi bold;
+  font-size: 35px;
+  line-height: 32px;
+  color: #3a4a42;
+  margin-left: 60px;
+}
+
+.container {
+  width: 327px;
+  height: 474px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  border-color: #d0d9d4;
+
+  border-width: 1px;
+  border-style: solid;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.column1 {
+  background-color: #d0d9d4;
+}
+
+.column2 {
+  background-color: white;
+}
+
+.languages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ruby {
+  border-style: none;
+  border-radius: 5px;
+  background-color: #ebf0ee;
+  padding: 8px;
+}
+
+.css {
+  border-style: none;
+  border-radius: 5px;
+  background-color: #ebf0ee;
+  padding: 6px;
+}
+
+.js {
+  border-style: none;
+  border-radius: 5px;
+  background-color: #ebf0ee;
+  padding: 6px;
+}
+
+.html {
+  border-style: none;
+  border-radius: 5px;
+  background-color: #ebf0ee;
+  padding: 6px;
+}
+
+.ruby:hover {
+  text-decoration: underline rgb(6, 14, 243);
+  border: 1px solid rgb(6, 14, 243);
+}
+.css:hover {
+  text-decoration: underline rgb(6, 14, 243);
+  border: 1px solid rgb(6, 14, 243);
+}
+.js:hover {
+  text-decoration: underline rgb(6, 14, 243);
+  border: 1px solid rgb(6, 14, 243);
+}
+.html:hover {
+  text-decoration: underline rgb(6, 14, 243);
+  border: 1px solid rgb(6, 14, 243);
+}
+
+.see-project-btn {
+  background-color: #36b37f;
+  color: #ebf0ee;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.see-project-btn:hover {
+  cursor: pointer;
 }
