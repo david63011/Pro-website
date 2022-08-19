@@ -7,7 +7,7 @@
 
 .welcome {
   font-family: Arial, Helvetica, sans-serif;
-  font-style: bold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 28px;
   margin-left: 35px;
@@ -192,7 +192,7 @@
 }
 
 .project-name1 {
-  font-style: bold;
+  font-weight: bold;
   font-size: 36px;
   line-height: 32px;
   color: #3a4a42;
@@ -200,7 +200,7 @@
 }
 
 .project-name-two {
-  font-style: bold;
+  font-weight: bold;
   font-size: 35px;
   line-height: 32px;
   color: #3a4a42;
