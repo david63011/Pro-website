@@ -334,18 +334,21 @@
   line-height: 32px;
   color: #42526e;
 }
+
 .text4 {
   font-size: 23px;
   line-height: 32px;
   color: #42526e;
   margin-left: 15px;
 }
+
 .text5 {
   font-size: 23px;
   line-height: 32px;
   color: #42526e;
   margin-left: 55px;
 }
+
 .text6 {
   font-size: 23px;
   line-height: 32px;
@@ -375,19 +378,4 @@
   text-decoration: underline rgb(6, 14, 243);
   border: 1px solid rgb(6, 14, 243);
   cursor: pointer;
-}
-
-.language-container {
-  width: 327px;
-  height: 354px;
-  border-radius: 8px;
-  font-weight: bold;
-  display: grid;
-  grid-template-rows: 1fr;
-  border-color: #d0d9d4;
-  border-width: 1px;
-  border-style: solid;
-  margin-top: 100px;
-  margin-left: 20px;
-  background-color: #d0d9d4;
 }
