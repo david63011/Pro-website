@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 .header {
   display: flex;
   flex-direction: row;
@@ -55,6 +59,9 @@
   left: 95px;
 }
 
+.languages li {
+  display: inline-block;
+}
 .job {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -144,7 +151,9 @@
   color: #172b4d;
   margin-left: 35px;
 }
-
+.languages {
+  display: flex;
+}
 .icons {
   position: absolute;
   top: 670px;
@@ -204,6 +213,7 @@
   line-height: 32px;
   color: #3a4a42;
   margin-left: 25px;
+  margin-top: 20px;
 }
 
 .project-name-two {
@@ -212,6 +222,7 @@
   line-height: 32px;
   color: #3a4a42;
   margin-left: 60px;
+  margin-bottom: 20px;
 }
 
 .container {
@@ -238,16 +249,13 @@
   background-color: white;
 }
 
-.languages {
-  display: flex;
-  justify-content: space-between;
-}
-
 .ruby {
   border-style: none;
   border-radius: 5px;
   background-color: #ebf0ee;
   padding: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .css {
@@ -262,6 +270,7 @@
   border-radius: 5px;
   background-color: #ebf0ee;
   padding: 6px;
+  margin-left: 10px;
 }
 
 .html {
@@ -390,20 +399,20 @@
 .globe {
   position: absolute;
   left: 112px;
-  top: 3930px;
+  top: 3700px;
 }
 
 .languages2 {
   position: absolute;
   left: 100px;
-  top: 4035px;
+  top: 3820px;
   color: #172b4d;
 }
 
 .frameworks2 {
   position: absolute;
   left: 100px;
-  top: 4420px;
+  top: 4220px;
   color: #172b4d;
 }
 
@@ -415,14 +424,14 @@
 .skills {
   position: absolute;
   left: 150px;
-  top: 4800px;
+  top: 4600px;
   color: #172b4d;
 }
 
 .light {
   position: absolute;
   left: 112px;
-  top: 4700px;
+  top: 4500px;
 }
 
 .language-container {
@@ -444,9 +453,6 @@
 
 .center-row {
   display: flex;
-  align-items: center;
-  margin-bottom: 80px;
-  justify-content: space-between;
 }
 
 .top-row {
@@ -457,7 +463,8 @@
 
 .bottom-row {
   display: flex;
-  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .java-language {
@@ -516,7 +523,7 @@
 .ficon {
   position: absolute;
   left: 112px;
-  top: 4315px;
+  top: 4115px;
 }
 
 .boot {
@@ -529,8 +536,6 @@
   font-size: 18px;
   line-height: 16px;
   border-radius: 8px;
-  margin-left: 5px;
-  margin-right: 8px;
 }
 
 .ruby-rails {
@@ -543,8 +548,6 @@
   font-size: 18px;
   line-height: 16px;
   border-radius: 8px;
-  margin-left: 5px;
-  margin-right: 8px;
 }
 
 .r-spec {
@@ -594,12 +597,10 @@
   color: #36b37e;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 5px;
-  padding-left: 5px;
+  margin-left: 8px;
   font-size: 18px;
   line-height: 16px;
   border-radius: 8px;
-  margin-left: 9px;
   margin-right: 8px;
 }
 
@@ -651,7 +652,7 @@
   font-size: 18px;
   line-height: 16px;
   border-radius: 8px;
-  margin-left: 125px;
+  margin-left: 120px;
 }
 
 .projects {
@@ -672,7 +673,7 @@
   border-color: #d0d9d4;
   margin-left: 15px;
   position: absolute;
-  top: 5330px;
+  top: 5130px;
 }
 
 .name-last {
@@ -683,7 +684,7 @@
   border-color: #d0d9d4;
   margin-left: 15px;
   position: absolute;
-  top: 5400px;
+  top: 5200px;
 }
 
 .enter {
@@ -694,7 +695,7 @@
   border-color: #d0d9d4;
   margin-left: 15px;
   position: absolute;
-  top: 5480px;
+  top: 5270px;
 }
 
 .name:hover {
@@ -725,7 +726,7 @@
   padding-right: 10px;
   padding-bottom: 15px;
   position: absolute;
-  top: 5630px;
+  top: 5430px;
   left: 100px;
 }
 
@@ -738,7 +739,7 @@
 .icon-row2 {
   display: flex;
   position: absolute;
-  top: 5720px;
+  top: 5520px;
   left: 100px;
 }
 
@@ -758,4 +759,16 @@
 
 .email:hover {
   text-decoration: underline rgb(6, 14, 243);
+}
+
+.top-row li {
+  display: inline-block;
+}
+
+.bottom-row li {
+  display: inline-block;
+}
+
+.center-row li {
+  display: inline-block;
 }
