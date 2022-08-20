@@ -392,6 +392,7 @@
   left: 112px;
   top: 3930px;
 }
+
 .languages2 {
   position: absolute;
   left: 100px;
@@ -423,6 +424,7 @@
   left: 112px;
   top: 4700px;
 }
+
 .language-container {
   width: 327px;
   height: 354px;
@@ -439,6 +441,7 @@
   align-content: space-around;
   justify-content: space-between;
 }
+
 .center-row {
   display: flex;
   align-items: center;
@@ -451,6 +454,7 @@
   justify-content: space-between;
   margin-bottom: 14px;
 }
+
 .bottom-row {
   display: flex;
   margin-bottom: 25px;
