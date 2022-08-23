@@ -1,22 +1,16 @@
+My professional Website
 
-My professional Website 
-
-
-This is my first Website project with Microverse. And this is version 1 of the mobile version of the site. 
+This is my first Website project with Microverse. And this is version 1 of the mobile version of the site.
 Built With
 HTML and CSS
-
-
 
 👤 Author1
 
 GitHub: @david63011
 Twitter: @david630
 
-
-
 Show your support
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project!!
 
 Acknowledgments
 Hat tip to anyone whose code was used
