@@ -25,9 +25,9 @@
       <img src="background.png" alt="green background" />
       <div class="greeting">
         <h1 class="hi">Hey there. I'm</h1>
-        <h1 class="first-name">Mariane</h1>
-        <h1 class="job">I am a software</h1>
-        <h1 class="job-info">Developer</h1>
+        <h2 class="first-name">Mariane</h2>
+        <h3 class="job">I am a software</h3>
+        <h4 class="job-info">Developer</h4>
       </div>
       <div class="information-box">
         <p class="paragraph">
@@ -163,11 +163,11 @@
     <section class="text-box">
       <div class="text-info">
         <h1 class="text1">I can help you build a product,</h1>
-        <h1 class="text2">feature or website Look through</h1>
-        <h1 class="text3">some of my work and experience! If</h1>
-        <h1 class="text4">you like what you see and have a</h1>
-        <h1 class="text5">project you need coded,</h1>
-        <h1 class="text6">don’t hestiate to contact me.</h1>
+        <h2 class="text2">feature or website Look through</h2>
+        <h3 class="text3">some of my work and experience! If</h3>
+        <h4 class="text4">you like what you see and have a</h4>
+        <h5 class="text5">project you need coded,</h5>
+        <h6 class="text6">don’t hestiate to contact me.</h6>
       </div>
     </section>
     <button type="submit" class="resume-btn">See Project</button>
@@ -199,6 +199,7 @@
           <li class="r-spec">RSpec</li>
         </ul>
       </div>
+      
       <div class="bottom-row">
         <ul>
           <li class="Capybara">Capybara</li>
@@ -231,29 +232,80 @@
       chat please get in touch.
     </section>
 
-    <input type="text" class="name" placeholder="Full Name" />
-    <input type="text" class="name-last" placeholder="Email Address" />
-    <input type="text" class="enter" placeholder="Enter text here" />
+    <footer class="contactpage">
+      <form action="https://formspree.io/f/myyvzkag" method="post">
+        
+        
+        <ul>
+        <li>
+          
+                     
+          <input
+          id="Name" name="user_name" 
 
-    <button type="submit" class="touch-btn">Get in touch</button>
+          label for="name"
+          type="text"
+          maxlength="30"
+          class="name" 
+          placeholder="Full Name" required="required">
+        
+        </li>
+      
 
-    <div class="icon-row2">
-      <div class="tweet-connect">
-        <a href="https://twitter.com/david630"
-          ><img class="tweet" src="twitter.svg" alt="twitter picture"
-        /></a>
+        <li>
+          
+            <input
+            
+             id="email" name="user_email" 
+            
+            label for="name" 
+              type="email" 
+              class="name-last"
+              placeholder="Email Address" required="required">
+        </li>
+        <li>
+
+        
+          <div class="bottom-text-box">
+            
+
+            <textarea
+            id="text-box" name="message" 
+
+             label for="name"
+            type="text"
+            maxlength="500"
+            class="enter"
+            placeholder="Enter text here" required="required">
+          </textarea> 
+       
+        </li>
+      
+
+        <button type="submit" class="touch-btn">Get in touch</button>
+      </ul>
+      </form>
+
+        </div>
+   
+      <div class="icon-row2">
+        <div class="tweet-connect">
+          <a href="https://twitter.com/david630"
+            ><img class="tweet" src="twitter.svg" alt="twitter picture"
+          /></a>
+        </div>
+
+        <img class="med" src="medium.svg" alt="medium picture" />
+        <div>
+          <a href="https://github.com/david63011"
+            ><img class="git" src="github.svg" alt="git picture"
+          /></a>
+        </div>
+
+        <img class="angel" src="angellist.svg" alt="angelist picture" />
       </div>
 
-      <img class="med" src="medium.svg" alt="medium picture" />
-      <div>
-        <a href="https://github.com/david63011"
-          ><img class="git" src="github.svg" alt="git picture"
-        /></a>
-      </div>
-
-      <img class="angel" src="angellist.svg" alt="angelist picture" />
-    </div>
-
-    <p class="email">david630@gmail.com</p>
+      <p class="email">david630@gmail.com</p>
+    </footer>
   </body>
 </html>
