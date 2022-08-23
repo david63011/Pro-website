@@ -190,7 +190,7 @@
 .top-one {
   display: flex;
   align-items: center;
-  margin-left: -1100px;
+  margin-left: -1190px;
   flex-direction: column;
 }
 
@@ -208,7 +208,7 @@
 }
 
 .Indicator {
-  margin-left: 160px;
+  margin-left: 130px;
 }
 
 .project-name1 {
@@ -258,8 +258,7 @@
   border-radius: 5px;
   background-color: #ebf0ee;
   padding: 8px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  float: right;
 }
 
 .css {
@@ -267,7 +266,7 @@
   border-radius: 5px;
   background-color: #ebf0ee;
   padding: 6px;
-  margin-left: 120px;
+  clear: right;
 }
 
 .js {
@@ -275,7 +274,7 @@
   border-radius: 5px;
   background-color: #ebf0ee;
   padding: 6px;
-  margin-left: 10px;
+  clear: right;
 }
 
 .html {
@@ -283,6 +282,7 @@
   border-radius: 5px;
   background-color: #ebf0ee;
   padding: 6px;
+  clear: right;
 }
 
 .ruby:hover {
@@ -314,7 +314,7 @@
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 15px;
-  margin-left: 100px;
+  margin-left: 75px;
   margin-top: 40px;
 }
 
@@ -428,7 +428,7 @@
 
 .skills {
   position: absolute;
-  left: 150px;
+  left: 140px;
   top: 4600px;
   color: #172b4d;
 }
@@ -484,6 +484,9 @@
   border-radius: 8px;
   margin-left: 5px;
   margin-right: 8px;
+  position: absolute;
+  top: 3920px;
+  left: 30px;
 }
 
 .ruby-language {
@@ -497,6 +500,9 @@
   line-height: 16px;
   border-radius: 8px;
   margin-right: 10px;
+  position: absolute;
+  top: 3920px;
+  left: 275px;
 }
 
 .html-language {
@@ -510,6 +516,9 @@
   line-height: 16px;
   border-radius: 8px;
   margin-right: 10px;
+  position: absolute;
+  top: 3920px;
+  left: 135px;
 }
 
 .css-language {
@@ -523,6 +532,9 @@
   line-height: 16px;
   border-radius: 8px;
   margin-right: 30px;
+  position: absolute;
+  top: 3920px;
+  left: 215px;
 }
 
 .ficon {
@@ -668,6 +680,7 @@
   font-size: 40px;
   white-space: initial;
   margin-left: 40px;
+  margin-top: 20px;
 }
 
 .name {
@@ -739,6 +752,7 @@
   text-decoration: underline rgb(6, 14, 243);
   border-color: transparent;
   box-shadow: 0 0 0 1px rgb(6, 14, 243);
+  cursor: pointer;
 }
 
 .icon-row2 {
@@ -759,7 +773,7 @@
   line-height: 32px;
   position: absolute;
   left: 70px;
-  top: 5750px;
+  top: 5550px;
 }
 
 .email:hover {
@@ -776,4 +790,27 @@
 
 .center-row li {
   display: inline-block;
+  margin-bottom: 20px;
+}
+
+.contactpage {
+  display: flex;
+  flex-direction: column;
+}
+
+#Name {
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+}
+
+#email {
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+}
+
+#text-box {
+  width: 327px;
+  height: 114px;
 }
