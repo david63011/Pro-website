@@ -820,28 +820,40 @@
 .textline1 {
   margin-left: 22px;
   font-size: 38.5px;
+  font-family: verdana, Arial, 'sans serif';
 }
 
 .textline2 {
   margin-left: 10px;
   font-size: 40px;
+  font-family: verdana, Arial, 'sans serif';
 }
+
 .textline3 {
   margin-left: 10px;
   font-size: 40px;
+  font-family: verdana, Arial, 'sans serif';
 }
+
 .textline4 {
   font-size: 40px;
+  font-family: verdana, Arial, 'sans serif';
 }
+
 .textline5 {
   font-size: 40px;
+  font-family: verdana, Arial, 'sans serif';
 }
+
 .textline6 {
   font-size: 40px;
+  font-family: verdana, Arial, 'sans serif';
 }
+
 .textline7 {
   margin-left: 50px;
   font-size: 40px;
+  font-family: verdana, Arial, 'sans serif';
 }
 
 input[type='text'] {
