@@ -1,28 +1,23 @@
+**My professional Website**
 
-My professional Website 
+This is my first Website project with Microverse. And this is version 1 of the mobile version of the site.
 
-
-This is my first Website project with Microverse. And this is version 1 of the mobile version of the site. 
-Built With
+**Built With**
 HTML and CSS
 
-
-
-👤 Author1
+👤 **Author1**
 
 GitHub: @david63011
 Twitter: @david630
 
+**Show your support**
+Give a ⭐️ if you like this project!!
 
-
-Show your support
-Give a ⭐️ if you like this project!
-
-Acknowledgments
+**Acknowledgments**
 Hat tip to anyone whose code was used
 Inspiration
 etc
-📝 License
+📝 **License**
 This project is MIT licensed.
 
 NOTE: we recommend using the MIT license - you can set it up quickly by using templates available on GitHub. You can also use any other license if you wish.
