@@ -574,7 +574,6 @@ body {
   font-size: 18px;
   line-height: 16px;
   border-radius: 8px;
-
   position: absolute;
   top: 4510px;
   left: 30px;
@@ -1229,11 +1228,6 @@ textarea {
     left: 700px;
   }
 
-  .center-row {
-    position: absolute;
-    top: -167px;
-  }
-
   .skills {
     position: absolute;
     top: 2790px;
@@ -1256,6 +1250,7 @@ textarea {
     top: 2650px;
     left: 1030px;
   }
+
   .languages2 {
     position: absolute;
     top: 2800px;
