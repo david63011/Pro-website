@@ -19,6 +19,18 @@ body {
   height: 50px;
 }
 
+.work {
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.work-2 {
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-top: -20px;
+}
 .welcome {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -102,9 +114,11 @@ body {
   top: 300px;
   left: 480px;
 }
+
 .hi-alex:hover {
   transform: scale(1.2);
 }
+
 .job-two {
   color: #36b37e;
   font-weight: bold;
@@ -147,6 +161,7 @@ body {
 .work:hover {
   transform: scale(1.2);
 }
+
 .work-2:hover {
   transform: scale(1.2);
 }
@@ -283,19 +298,6 @@ body {
   align-items: center;
   margin-left: -1190px;
   flex-direction: column;
-}
-
-.work {
-  font-size: 40px;
-  line-height: 52px;
-  color: #172b4d;
-}
-
-.work-2 {
-  font-size: 40px;
-  line-height: 52px;
-  color: #172b4d;
-  margin-top: -20px;
 }
 
 .Indicator {
