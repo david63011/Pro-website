@@ -906,7 +906,7 @@ body {
 #text-box {
   width: 327px;
   height: 114px;
-  color: #d0d9d4;
+  color: #091e42;
 }
 
 .textline1 {
@@ -965,13 +965,13 @@ textarea {
 
 #full-name {
   border-width: 1px;
-  color: #d0d9d4;
+  color: #091e42;
   margin-left: 10px;
 }
 
 #email {
   border-width: 1px;
-  color: #d0d9d4;
+  color: #091e42;
   margin-left: 10px;
 }
 
