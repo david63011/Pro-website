@@ -1,3 +1,11 @@
+body {
+  min-height: 100vh;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
 * {
   padding: 0;
   margin: 0;
@@ -32,10 +40,13 @@
   display: inline-block;
   margin-left: 230px;
 }
-
+.bottom-part {
+  display: flex;
+}
 .main-part {
-  max-width: 375px;
+  width: 1305px;
   flex-wrap: wrap;
+  display: flex;
 }
 
 .hi {
@@ -48,7 +59,67 @@
   top: 135px;
   left: 35px;
 }
+.greeting2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.text-info2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text1a {
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+}
+.text-info2b {
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+}
+.text-info3c {
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+}
+.hi-alex {
+  color: #172b4d;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  position: absolute;
+  top: 300px;
+  left: 480px;
+}
+.job-two {
+  color: #36b37e;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  position: absolute;
+  top: 350px;
+  left: 420px;
+}
+.porto {
+  margin-left: -900px;
+  margin-right: 20px;
+  color: #172b4d;
+  font-size: 20px;
+}
+
+.about-top {
+  margin-right: 20px;
+  color: #172b4d;
+  font-size: 20px;
+}
+
+.con {
+  color: #172b4d;
+  font-size: 20px;
+}
 .first-name {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -57,7 +128,7 @@
   color: #172b4d;
   position: absolute;
   top: 190px;
-  left: 95px;
+  left: 120px;
 }
 
 .languages li {
@@ -235,7 +306,7 @@
   border-radius: 8px;
   font-weight: bold;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   border-color: #d0d9d4;
   border-width: 1px;
   border-style: solid;
@@ -327,7 +398,8 @@
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  margin-left: 95px;
+  margin-left: 80px;
+  margin-top: 30px;
 }
 
 .rocket {
@@ -387,6 +459,8 @@
   padding-right: 10px;
   padding-bottom: 15px;
   margin-left: 100px;
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
 
 .resume-btn:hover {
@@ -404,20 +478,24 @@
 .globe {
   position: absolute;
   left: 112px;
-  top: 3700px;
+  top: 4255px;
 }
 
 .languages2 {
   position: absolute;
-  left: 100px;
-  top: 3820px;
+  left: 120px;
+  top: 4380px;
   color: #172b4d;
 }
-
+.frame2 {
+  position: absolute;
+  top: 5600;
+  left: 100px;
+}
 .frameworks2 {
   position: absolute;
   left: 100px;
-  top: 4220px;
+  top: 4760px;
   color: #172b4d;
 }
 
@@ -428,15 +506,15 @@
 
 .skills {
   position: absolute;
-  left: 140px;
-  top: 4600px;
+  left: 145px;
+  top: 5150px;
   color: #172b4d;
 }
 
 .light {
   position: absolute;
   left: 112px;
-  top: 4500px;
+  top: 5030px;
 }
 
 .language-container {
@@ -454,6 +532,7 @@
   background-color: #d0d9d4;
   align-content: space-around;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .center-row {
@@ -475,66 +554,72 @@
 .java-language {
   background-color: white;
   color: #36b37e;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 8px;
+  padding-left: 8px;
   font-size: 18px;
   line-height: 16px;
   border-radius: 8px;
-  margin-left: 5px;
+
   margin-right: 8px;
   position: absolute;
-  top: 3920px;
+  top: 4510px;
   left: 30px;
+  font-weight: bold;
+  margin-right: 30px;
 }
 
 .ruby-language {
   background-color: white;
   color: #36b37e;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 8px;
+  padding-left: 8px;
   font-size: 18px;
   line-height: 16px;
   border-radius: 8px;
   margin-right: 10px;
   position: absolute;
-  top: 3920px;
+  top: 4510px;
   left: 275px;
+  font-weight: bold;
 }
 
 .html-language {
   background-color: white;
   color: #36b37e;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 8px;
+  padding-left: 8px;
   font-size: 18px;
   line-height: 16px;
   border-radius: 8px;
   margin-right: 10px;
   position: absolute;
-  top: 3920px;
+  top: 4510px;
   left: 135px;
+  font-weight: bold;
+  margin-left: 5px;
 }
 
 .css-language {
   background-color: white;
   color: #36b37e;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 8px;
+  padding-left: 8px;
   font-size: 17px;
   line-height: 16px;
   border-radius: 8px;
-  margin-right: 30px;
   position: absolute;
-  top: 3920px;
+  top: 4510px;
   left: 215px;
+  font-weight: bold;
+  margin-left: 5px;
 }
 
 .ficon {
@@ -546,22 +631,23 @@
 .boot {
   background-color: white;
   color: #36b37e;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 8px;
+  padding-left: 8px;
   font-size: 18px;
   line-height: 16px;
   border-radius: 8px;
+  margin-left: 10px;
 }
 
 .ruby-rails {
   background-color: white;
   color: #36b37e;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 8px;
+  padding-left: 8px;
   font-size: 18px;
   line-height: 16px;
   border-radius: 8px;
@@ -570,10 +656,10 @@
 .r-spec {
   background-color: white;
   color: #36b37e;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 8px;
+  padding-left: 8px;
   font-size: 18px;
   line-height: 16px;
   border-radius: 8px;
@@ -746,21 +832,21 @@
   padding-left: 12px;
   padding-right: 12px;
   position: absolute;
-  top: 5480px;
+  top: 6038px;
   left: 80px;
 }
 
 .touch-btn:hover {
-  text-decoration: underline rgb(6, 14, 243);
   border-color: transparent;
   box-shadow: 0 0 0 1px rgb(6, 14, 243);
   cursor: pointer;
+  background: #46bc89;
 }
 
 .icon-row2 {
   display: flex;
   position: absolute;
-  top: 5580px;
+  top: 6100px;
   left: 78px;
 }
 
@@ -775,7 +861,7 @@
   line-height: 32px;
   position: absolute;
   left: 70px;
-  top: 5620px;
+  top: 6150px;
 }
 
 .email:hover {
@@ -809,6 +895,7 @@
 #text-box {
   width: 327px;
   height: 114px;
+  color: #d0d9d4;
 }
 
 .textline1 {
@@ -867,7 +954,7 @@ textarea {
 
 #full-name {
   border-width: 1px;
-  color: #6b778c;
+  color: #d0d9d4;
   margin-left: 10px;
 }
 
@@ -892,6 +979,18 @@ textarea {
   border-radius: 4px;
 }
 
+.projects-2-big {
+  margin-bottom: 50px;
+  margin-top: 250px;
+  margin-left: 250px;
+  width: 463px;
+  height: 256px;
+  font-size: 30px;
+  line-height: 52px;
+  color: #172b4d;
+  font-weight: bold;
+}
+
 .enter-form {
   width: 327px;
   height: 114px;
@@ -907,4 +1006,304 @@ textarea {
 
 .touch-btn:focus {
   background: #03884c;
+}
+
+.contact-part {
+  margin-left: 200px;
+}
+
+@media screen and (min-width: 600px) {
+  .cell-info {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .union {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .header1 {
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    height: 72px;
+    align-items: center;
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-section-top {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .welcome {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .big-info {
+    display: flex;
+  }
+
+  .background-photo1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .background-photo2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .portoflio {
+    font-size: 12px;
+    color: #36b37f;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .header-personal-info {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .porto {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-top {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .con {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .greeting {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .greeting2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .information-box {
+    width: 920px;
+    height: 50px;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .paragraph {
+    font-size: 20px;
+    line-height: 32px;
+    color: #172b4d;
+    margin-left: 450px;
+    margin-top: 150px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .icon-row {
+    display: flex;
+    position: absolute;
+    top: 575px;
+    left: 550px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    width: 369px;
+  }
+
+  .column1 {
+    width: 369px;
+  }
+
+  .column2 {
+    width: 369px;
+  }
+
+  .grid-containers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1271px;
+    margin-left: 130px;
+  }
+
+  .top-one {
+    margin-left: 10px;
+  }
+
+  .Indicator {
+    display: none;
+  }
+
+  .project-name1 {
+    margin-left: 50px;
+  }
+
+  .project-name-two {
+    margin-left: 100px;
+  }
+
+  .languages {
+    margin-left: 40px;
+  }
+
+  .see-project-btn {
+    margin-left: 120px;
+  }
+
+  .about-me {
+    margin-left: 700px;
+    color: #172b4d;
+    margin-top: 150px;
+    white-space: nowrap;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 30px;
+    display: flex;
+  }
+
+  .text-info1 {
+    display: none;
+  }
+
+  .resume-btn {
+    width: 159px;
+    height: 48px;
+    border-radius: 4px;
+    margin-left: 680px;
+    font-size: 17px;
+  }
+
+  .big-bit {
+    display: flex;
+    margin-left: 235px;
+  }
+
+  .frameworks2 {
+    position: absolute;
+    top: 2790px;
+    left: 700px;
+  }
+
+  .frame2 {
+    position: absolute;
+    top: 2650px;
+    left: 700px;
+  }
+
+  .center-row {
+    position: absolute;
+    top: -167px;
+  }
+
+  .skills {
+    position: absolute;
+    top: 2790px;
+    left: 385px;
+  }
+
+  .center-row {
+    position: absolute;
+    top: -1670px;
+  }
+
+  .globe {
+    position: absolute;
+    top: 2650px;
+    left: 345px;
+  }
+
+  .light {
+    position: absolute;
+    top: 2650px;
+    left: 1030px;
+  }
+  .languages2 {
+    position: absolute;
+    top: 2800px;
+    left: 1050px;
+  }
+
+  .projects {
+    display: none;
+  }
+
+  .ruby-rails {
+    background-color: white;
+    color: #36b37e;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 18px;
+    line-height: 16px;
+    border-radius: 8px;
+    margin-left: 8px;
+  }
+
+  .form-section {
+    position: absolute;
+    top: 3180px;
+    left: 700px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .email {
+    display: none;
+  }
+
+  .touch-btn {
+    position: absolute;
+    top: 290px;
+    left: 10px;
+  }
+
+  .icon-row2 {
+    position: absolute;
+    top: 3690px;
+    left: 710px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text-info2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects-2-big {
+    display: none;
+  }
 }
