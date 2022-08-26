@@ -110,7 +110,7 @@ body {
   line-height: 60px;
   position: absolute;
   top: 350px;
-  left: 420px;
+  left: 430px;
 }
 
 .porto {
@@ -1182,6 +1182,7 @@ textarea {
 
   .languages {
     margin-left: 40px;
+    display: flex;
   }
 
   .see-project-btn {
@@ -1300,6 +1301,23 @@ textarea {
     position: absolute;
     top: 3690px;
     left: 710px;
+  }
+
+  .name-text-box {
+    width: 684px;
+    height: 48px;
+    border-radius: 4px;
+  }
+
+  .name-last-text-box {
+    width: 684px;
+    height: 48px;
+    border-radius: 4px;
+  }
+
+  #text-box {
+    width: 684px;
+    height: 114px;
   }
 }
 
