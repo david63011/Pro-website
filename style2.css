@@ -733,7 +733,6 @@
   display: flex;
   flex-direction: column;
   margin-top: 2em;
-  display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -1097,47 +1096,6 @@ input[type='email']::placeholder {
     position: absolute;
     top: 2490px;
     left: 700px;
-  }
-
-  .frame {
-    position: absolute;
-    top: 1000px;
-    left: 750px;
-  }
-
-  .skills {
-    position: absolute;
-    top: 2490px;
-    left: 385px;
-  }
-
-  .center-row {
-    position: absolute;
-    top: -1955px;
-  }
-
-  .globe {
-    position: absolute;
-    top: 2360px;
-    left: 345px;
-  }
-
-  .light {
-    position: absolute;
-    top: 2370px;
-    left: 1030px;
-  }
-
-  .frame2 {
-    position: absolute;
-    top: 2370px;
-    left: 700px;
-  }
-
-  .languages2 {
-    position: absolute;
-    top: 2490px;
-    left: 1050px;
   }
 
   .projects {
