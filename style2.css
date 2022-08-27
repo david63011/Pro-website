@@ -201,12 +201,6 @@ span {
   left: 35px;
 }
 
-.greeting2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .text-info2 {
   display: flex;
   flex-direction: column;
@@ -1243,19 +1237,11 @@ input[type='email']::placeholder {
   .enter-form {
     display: none;
   }
-  .about-me-end-section {
-    list-style: none;
-    display: flex;
-    width: max-content;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-  }
 
   .big-works {
     display: none;
   }
+
   .name-text-box {
     width: 327px;
     height: 48px;
