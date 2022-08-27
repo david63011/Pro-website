@@ -693,11 +693,6 @@
   margin-bottom: 45px;
 }
 
-.touch-btn:hover {
-  cursor: pointer;
-  background: #46bc89;
-}
-
 .icon-row2 {
   display: flex;
   position: absolute;
@@ -1199,13 +1194,18 @@ input[type='email']::placeholder {
     display: none;
   }
 
+  .touch-btn {
+    display: none;
+  }
+
+  .touch-btn:hover {
+    cursor: pointer;
+    background: #46bc89;
+  }
+
   .big-works {
     display: none;
   }
-}
-
-.touch-btn {
-  display: none;
 }
 
 .main-section {
