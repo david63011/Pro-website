@@ -18,7 +18,10 @@
 .about-top {
   margin-left: 20px;
   margin-right: 20px;
+  color: #172b4d;
+  font-size: 20px;
 }
+
 .welcome {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -115,11 +118,6 @@
 }
 
 .porto {
-  color: #172b4d;
-  font-size: 20px;
-}
-
-.about-top {
   color: #172b4d;
   font-size: 20px;
 }
@@ -492,6 +490,7 @@
   left: 112px;
   top: 4680px;
 }
+
 .languages2 {
   position: absolute;
   left: 120px;
@@ -954,6 +953,8 @@ input[type='email'] {
 textarea {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 #full-name {
@@ -1015,6 +1016,7 @@ textarea {
 .contact-part {
   margin-left: 200px;
 }
+
 input[type='text']::placeholder {
   padding-left: 15px;
 }
@@ -1022,9 +1024,7 @@ input[type='text']::placeholder {
 input[type='email']::placeholder {
   padding-left: 15px;
 }
-textarea {
-  padding-left: 15px;
-}
+
 @media screen and (min-width: 600px) {
   .cell-info {
     display: none;
