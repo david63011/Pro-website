@@ -10,6 +10,25 @@
   height: 50px;
 }
 
+.touch-btn {
+  background-color: #36b37c;
+  color: #ebf0ee;
+  font-size: 17px;
+  border-radius: 5px;
+  height: 48px;
+  width: 129px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  position: absolute;
+  top: 6070px;
+  left: 80px;
+  border: none;
+  font-weight: 400;
+  margin-bottom: 45px;
+}
+
 .languages li {
   display: inline-block;
 }
@@ -673,25 +692,6 @@
   box-shadow: 0 0 0 1px rgb(6, 14, 243);
 }
 
-.touch-btn {
-  background-color: #36b37c;
-  color: #ebf0ee;
-  font-size: 17px;
-  border-radius: 5px;
-  height: 48px;
-  width: 129px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 12px;
-  padding-right: 12px;
-  position: absolute;
-  top: 6070px;
-  left: 80px;
-  border: none;
-  font-weight: 400;
-  margin-bottom: 45px;
-}
-
 .icon-row2 {
   display: flex;
   position: absolute;
@@ -1044,6 +1044,10 @@ input[type='email']::placeholder {
     width: 2000px;
   }
 
+  .touch-btn {
+    display: none;
+  }
+
   .input-box-box {
     margin-top: -285px;
   }
@@ -1183,6 +1187,9 @@ input[type='email']::placeholder {
   .text-info2 {
     display: none;
   }
+  .send-btn {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -1191,10 +1198,6 @@ input[type='email']::placeholder {
   }
 
   .paragraph2 {
-    display: none;
-  }
-
-  .touch-btn {
     display: none;
   }
 
