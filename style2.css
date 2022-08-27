@@ -10,6 +10,27 @@
   height: 50px;
 }
 
+.header-title {
+  font-size: 48px;
+  line-height: 60px;
+  color: #172b4d;
+}
+
+.greeting2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+span {
+  color: #36b37e;
+  font-size: 48px;
+  line-height: 60px;
+}
+
 .touch-btn {
   background-color: #36b37c;
   color: #ebf0ee;
@@ -844,7 +865,6 @@ textarea {
   height: 114px;
   border-radius: 4px;
   border-width: 1px;
-  border-color: #60c095;
   margin-left: 10px;
 }
 
@@ -1029,7 +1049,7 @@ input[type='email']::placeholder {
   .grid-containers {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 1100px;
+    width: 1300px;
     margin-left: 130px;
   }
 
@@ -1202,13 +1222,46 @@ input[type='email']::placeholder {
     display: none;
   }
 
+  .about-me-end-section {
+    list-style: none;
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
   .touch-btn:hover {
     cursor: pointer;
     background: #46bc89;
   }
 
+  #text-box {
+    display: none;
+  }
+  .enter-form {
+    display: none;
+  }
+  .about-me-end-section {
+    list-style: none;
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
   .big-works {
     display: none;
+  }
+  .name-text-box {
+    width: 327px;
+    height: 48px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    margin-left: 10px;
   }
 }
 
