@@ -9,6 +9,7 @@
   max-width: 375px;
   height: 50px;
 }
+
 .languages li {
   display: inline-block;
 }
@@ -71,6 +72,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .about-top {
   margin-left: 20px;
   margin-right: 20px;
@@ -96,7 +98,6 @@
   font-weight: bold;
   letter-spacing: 1px;
   font-size: 13px;
-
   border-radius: 5px;
   margin: 3px;
   padding: 10px;
@@ -733,7 +734,6 @@
   flex-direction: column;
   margin-top: 2em;
   display: flex;
-  flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -874,6 +874,7 @@ input[type='text']::placeholder {
 input[type='email']::placeholder {
   padding-left: 15px;
 }
+
 @media (min-width: 768px) {
   .about-me-end-section {
     display: flex;
@@ -1044,6 +1045,7 @@ input[type='email']::placeholder {
     margin-left: 10px;
     margin-bottom: 20px;
   }
+
   .form-section {
     margin-left: 450px;
     width: 2000px;
@@ -1187,10 +1189,12 @@ input[type='email']::placeholder {
   .projects-end {
     display: none;
   }
+
   .icon-row-footer {
     display: flex;
     margin-right: 110px;
   }
+
   .name-text-box {
     width: 684px;
     height: 48px;
@@ -1209,6 +1213,7 @@ input[type='email']::placeholder {
   .enter-form {
     width: 684px;
   }
+
   .paragraph {
     display: none;
   }
