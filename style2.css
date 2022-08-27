@@ -1256,11 +1256,13 @@ input[type='email']::placeholder {
     top: 2370px;
     left: 1030px;
   }
+
   .frame2 {
     position: absolute;
     top: 2370px;
     left: 700px;
   }
+
   .languages2 {
     position: absolute;
     top: 2490px;
@@ -1311,6 +1313,7 @@ input[type='email']::placeholder {
     top: 3490px;
     left: 710px;
   }
+
   .name-text-box {
     width: 684px;
     height: 48px;
@@ -1341,6 +1344,7 @@ input[type='email']::placeholder {
   .projects-2-big {
     display: none;
   }
+
   .paragraph2 {
     display: none;
   }
