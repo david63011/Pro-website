@@ -1187,6 +1187,7 @@ input[type='email']::placeholder {
   .text-info2 {
     display: none;
   }
+
   .send-btn {
     display: none;
   }
