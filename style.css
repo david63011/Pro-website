@@ -80,7 +80,7 @@ header {
   text-align: center;
   color: #172b4d;
   word-wrap: break-word;
-  margin-right: 5em;
+  margin-right: 7em;
 }
 
 .icon-row {
@@ -122,9 +122,9 @@ li {
   border-color: #d0d9d4;
   border-width: 1px;
   border-style: solid;
-  margin-left: 50px;
   align-content: space-around;
   margin-top: 20px;
+  margin-left: 5em;
 }
 
 .column1 {
@@ -219,6 +219,7 @@ li {
   line-height: 32px;
   color: #3a4a42;
   margin-bottom: 20px;
+  margin-left: 2em;
 }
 
 .see-project-btn {
@@ -231,28 +232,29 @@ li {
   padding-right: 10px;
   padding-bottom: 15px;
   margin-top: 30px;
+  margin-left: 4.8em;
 }
 
 .about {
   height: 48px;
   width: 351px;
+  margin-top: 3em;
 }
 
 .about-me {
   font-size: 40px;
   line-height: 52px;
-  margin-top: 2em;
   white-space: nowrap;
   color: #172b4d;
   font-weight: bold;
-  margin-left: 2.5em;
+  margin-left: 3.5em;
 }
 
 .text-info1 {
   width: 351px;
   height: 189px;
   margin-top: 2em;
-  margin-left: 3em;
+  margin-left: 6.5em;
 }
 
 .p2 {
@@ -273,7 +275,7 @@ li {
   margin-top: 25px;
   margin-bottom: 3em;
   border: none;
-  margin-right: 3em;
+  margin-left: 7.5em;
 }
 
 .resume-btn:hover {
@@ -287,7 +289,7 @@ li {
 .about-me-end-section {
   list-style: none;
   display: flex;
-  margin-left: 50px;
+  margin-left: 70px;
   flex-wrap: wrap;
   padding: 0;
 }
@@ -328,6 +330,7 @@ li {
   line-height: 52px;
   color: #172b4d;
   font-weight: bold;
+  margin-left: 40px;
 }
 
 .textline2 {
@@ -335,6 +338,7 @@ li {
   line-height: 52px;
   color: #172b4d;
   font-weight: bold;
+  margin-left: 20px;
 }
 
 .textline3 {
@@ -342,6 +346,7 @@ li {
   line-height: 52px;
   color: #172b4d;
   font-weight: bold;
+  margin-left: 10px;
 }
 
 .textline4 {
@@ -356,6 +361,7 @@ li {
   line-height: 52px;
   color: #172b4d;
   font-weight: bold;
+  margin-left: 10px;
 }
 
 .textline6 {
@@ -370,6 +376,7 @@ li {
   line-height: 52px;
   color: #172b4d;
   font-weight: bold;
+  margin-left: 50px;
 }
 
 .name-text-box {
@@ -379,6 +386,7 @@ li {
   border-width: 1px;
   border-color: #d0d9d4;
   margin-top: 5em;
+  margin-left: 7em;
 }
 
 .name-last-text-box {
@@ -387,6 +395,7 @@ li {
   border-radius: 4px;
   border-width: 1px;
   border-color: #d0d9d4;
+  margin-left: 7em;
 }
 
 .enter-form {
@@ -394,6 +403,7 @@ li {
   height: 114px;
   border-radius: 4px;
   border-width: 1px;
+  margin-left: 7em;
 }
 
 input[type='text']::placeholder {
@@ -402,6 +412,10 @@ input[type='text']::placeholder {
 
 input[type='email']::placeholder {
   padding-left: 15px;
+}
+
+.email {
+  margin-left: 11em;
 }
 
 textarea {
@@ -421,20 +435,18 @@ textarea {
   width: 129px;
   height: 48px;
   margin-bottom: 3em;
+  margin-left: 12em;
 }
 
 .icon-row-footer {
   display: flex;
-  margin-left: 11.5em;
+  margin-left: 12em;
   margin-bottom: 1.5em;
-}
-
-.tweet-connect {
-  margin-right: 1em;
 }
 
 .med {
   margin-right: 1em;
+  margin-left: 1em;
 }
 
 .git {
@@ -443,7 +455,7 @@ textarea {
 
 .projects-end {
   margin-top: 5em;
-  margin-right: 2em;
+  margin-left: 7em;
 }
 
 @media screen and (max-width: 600px) {
