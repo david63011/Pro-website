@@ -58,8 +58,6 @@ header {
 
 .hi-there2 {
   color: #36b37f;
-  margin-top: 1.7em;
-  margin-right: 2em;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -124,9 +122,7 @@ li {
   border-width: 1px;
   border-style: solid;
   margin-left: 50px;
-
   align-content: space-around;
-
   margin-top: 20px;
 }
 
@@ -316,13 +312,14 @@ li {
 
 .cat-things > li {
   background: white;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: bold;
-  padding: 1em 0.3em;
-  margin: 1em 0.3em;
+  padding: 1em 0.5em;
+  margin: 1em 0.5em;
   border-radius: 5px;
   color: #36b37e;
   border-width: 1px;
+  line-height: 16px;
 }
 
 .textline1 {
