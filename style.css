@@ -72,6 +72,7 @@ header {
   width: 327px;
   height: 164px;
 }
+
 .paragraph1 {
   font-size: 20px;
   line-height: 28px;
@@ -132,6 +133,18 @@ li {
 
 .column2 {
   background-color: white;
+}
+
+.cat-things > li {
+  background: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 1em 0.5em;
+  margin: 1em 0.5em;
+  border-radius: 5px;
+  color: #36b37e;
+  border-width: 1px;
+  line-height: 16px;
 }
 
 .languages ul li {
@@ -308,18 +321,6 @@ li {
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 30px;
-}
-
-.cat-things > li {
-  background: white;
-  font-size: 12px;
-  font-weight: bold;
-  padding: 1em 0.5em;
-  margin: 1em 0.5em;
-  border-radius: 5px;
-  color: #36b37e;
-  border-width: 1px;
-  line-height: 16px;
 }
 
 .textline1 {
