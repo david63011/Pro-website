@@ -403,15 +403,21 @@ li {
   height: 114px;
   border-radius: 4px;
   border-width: 1px;
-  margin-left: 5em;
+  margin-left: 65px;
 }
 
 input[type='text']::placeholder {
-  padding-left: 15px;
+  font-size: 15px;
+  line-height: 24px;
+  padding-top: 15px;
+  padding-left: 16px;
 }
 
 input[type='email']::placeholder {
+  padding-top: 16px;
   padding-left: 15px;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .email {
@@ -419,9 +425,11 @@ input[type='email']::placeholder {
 }
 
 textarea {
-  padding-left: 15px;
+  padding-left: 12px;
   font-family: 'Inter', sans-serif;
-  padding-top: 15px;
+  padding-top: 12px;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .send-btn {
@@ -436,6 +444,7 @@ textarea {
   height: 48px;
   margin-bottom: 3em;
   margin-left: 10em;
+  border: none;
 }
 
 .icon-row-footer {
@@ -456,6 +465,15 @@ textarea {
 .projects-end {
   margin-top: 5em;
   margin-left: 6em;
+}
+
+.black {
+  margin-bottom: -30px;
+}
+
+.Indicator2 {
+  margin-bottom: -450px;
+  margin-left: 170px;
 }
 
 @media screen and (max-width: 600px) {
