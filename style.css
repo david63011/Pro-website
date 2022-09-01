@@ -481,6 +481,7 @@ textarea {
   margin-top: 1em;
   margin-left: 5em;
 }
+
 .porto {
   color: #172b4d;
   font-size: 20px;
@@ -497,6 +498,7 @@ textarea {
   color: #172b4d;
   font-size: 20px;
 }
+
 .greeting2 {
   display: flex;
   flex-direction: column;
@@ -529,6 +531,7 @@ span {
   line-height: 32px;
   margin-left: 200px;
 }
+
 .text-info2 {
   display: flex;
   flex-direction: column;
@@ -735,7 +738,7 @@ span {
 
   footer {
     background: url(greenbox.svg) no-repeat 0% 90%,
-      url(leg.svg) no-repeat 100% 40%;
+      url(leg.svg) no-repeat 100% 100%;
   }
 }
 
