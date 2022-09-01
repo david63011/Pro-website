@@ -587,12 +587,14 @@ span {
   padding-right: 12px;
   border: none;
   font-weight: 400;
-  margin-left: 44.5em;
+  margin-left: 4.3em;
   margin-top: 0.5em;
 }
+
 .rec {
   margin-bottom: -12%;
 }
+
 @media screen and (min-width: 768px) {
   .greet {
     background: url(desktop2.svg) no-repeat 100% 0%;
@@ -629,6 +631,7 @@ span {
   .projects-end {
     display: none;
   }
+
   .top-info {
     margin-top: 30em;
   }
@@ -642,6 +645,7 @@ span {
     background: url(planeleft.svg) no-repeat 0% 20%,
       url(planeright.svg) no-repeat 100% 100%;
   }
+
   .about-me {
     margin-left: 17em;
     margin-top: 4em;
@@ -669,9 +673,11 @@ span {
     align-items: center;
     justify-content: center;
   }
+
   .projects-2-big {
     margin-top: 8em;
   }
+
   .form-container {
     display: flex;
     flex-direction: column;
@@ -679,11 +685,13 @@ span {
     margin: auto;
     margin-top: -22%;
   }
+
   .name-text-box {
     width: 684px;
     height: 48px;
     border-radius: 4px;
   }
+
   .name-last-text-box {
     margin-top: 1em;
     margin-bottom: 1em;
@@ -724,6 +732,7 @@ span {
   .touch-btn2:focus {
     background-color: #059f5c;
   }
+
   footer {
     background: url(greenbox.svg) no-repeat 0% 90%,
       url(leg.svg) no-repeat 100% 40%;
@@ -734,6 +743,7 @@ span {
   .projects-2-big {
     display: none;
   }
+
   .top-row-one {
     display: none;
   }
@@ -761,9 +771,11 @@ span {
   .Indicator2 {
     display: none;
   }
+
   .touch-btn2 {
     display: none;
   }
+
   .rec {
     display: none;
   }
