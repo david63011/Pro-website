@@ -6,9 +6,12 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   background: #fff;
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden
 }
 
 header {
@@ -228,11 +231,13 @@ li {
   font-size: 20px;
   border-radius: 5px;
   padding-top: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-bottom: 15px;
   margin-top: 30px;
   margin-left: 4.8em;
+  border: none;
+  margin-bottom: 24px;
 }
 
 .about {
@@ -738,6 +743,9 @@ span {
   footer {
     background: url(greenbox.svg) no-repeat 0% 90%, url(leg.svg) no-repeat 100% 100%;
   }
+
+ 
+
 }
 
 @media screen and (max-width: 600px) {
