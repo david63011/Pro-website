@@ -738,9 +738,7 @@ span {
   }
 
   footer {
-    /* prettier-ignore */
-    background: 
-    url(greenbox.svg) no-repeat 0% 90%,
+    background: url(greenbox.svg) no-repeat 0% 90%,
       url(leg.svg) no-repeat 100% 100%;
   }
 }
