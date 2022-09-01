@@ -643,12 +643,11 @@ span {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
-  /* prettier-ignore */
 
   .picture-box {
-    background: 
-    url(planeleft.svg) no-repeat 0% 20%,
-    url(planeright.svg) no-repeat 100% 100%;
+    background:
+     url(planeleft.svg) no-repeat 0% 20%,
+      url(planeright.svg) no-repeat 100% 100%;
   }
 
   .about-me {
@@ -738,12 +737,10 @@ span {
     background-color: #059f5c;
   }
 
-  /* prettier-ignore */
-
   footer {
     background: 
     url(greenbox.svg) no-repeat 0% 90%,
-    url(leg.svg) no-repeat 100% 100%;
+      url(leg.svg) no-repeat 100% 100%;
   }
 }
 
