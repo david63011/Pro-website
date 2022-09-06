@@ -57,7 +57,7 @@ header {
 }
 
 .hi-there2 {
-  color: #36b37f;
+  color: #36a57e;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -143,7 +143,7 @@ li {
   padding: 1em 0.5em;
   margin: 1em 0.5em;
   border-radius: 5px;
-  color: #36b37e;
+  color: #477e7e;
   border-width: 1px;
   line-height: 16px;
 }
@@ -224,7 +224,7 @@ li {
 }
 
 .see-project-btn {
-  background-color: #36b37f;
+  background-color: #36a57e;
   color: #ebf0ee;
   font-size: 20px;
   border-radius: 5px;
@@ -436,7 +436,7 @@ textarea {
 }
 
 .send-btn {
-  background-color: #36b37f;
+  background-color: #36a57e;
   color: #ffff;
   border-radius: 4px;
   font-weight: 400;
@@ -518,7 +518,7 @@ textarea {
 }
 
 span {
-  color: #36b37e;
+  color: #36a57e;
   font-size: 48px;
   line-height: 60px;
 }
@@ -581,7 +581,7 @@ span {
 }
 
 .touch-btn2 {
-  background-color: #36b37c;
+  background-color: #36a57e;
   color: #ebf0ee;
   font-size: 17px;
   border-radius: 5px;
