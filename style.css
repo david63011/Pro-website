@@ -57,7 +57,7 @@ header {
 }
 
 .hi-there2 {
-  color: #36b37f;
+  color: #36a57e;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -648,8 +648,7 @@ span {
   }
 
   .picture-box {
-    background: url(planeleft.svg) no-repeat 0% 20%,
-      url(planeright.svg) no-repeat 100% 100%;
+    background: url(planeleft.svg) no-repeat 0% 20%, url(planeright.svg) no-repeat 100% 100%;
   }
 
   .about-me {
@@ -740,8 +739,7 @@ span {
   }
 
   footer {
-    background: url(greenbox.svg) no-repeat 0% 90%,
-      url(leg.svg) no-repeat 100% 100%;
+    background: url(greenbox.svg) no-repeat 0% 90%, url(leg.svg) no-repeat 100% 100%;
   }
 }
 
