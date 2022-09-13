@@ -11,7 +11,6 @@ body {
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
   scroll-behavior: smooth;
-
 }
 
 header {
@@ -30,7 +29,6 @@ header {
   height: 100%;
   cursor:pointer;
   margin-top: 20px;
-
 }
 
 .union {
@@ -46,17 +44,14 @@ header {
   height: 100%;
   background-color: white;
   border: 1px lightgrey solid;
-  
-}
+  }
 
 .items {
   color: #3a4a42;
   font-size: 32px;  
   line-height: 75px;
   margin-left: 30px;
-  
-
-}
+  }
 
 .items-port{
   color: #3a4a42;
