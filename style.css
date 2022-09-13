@@ -20,6 +20,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
 .ham-btn1{
   background: white;
   color: #3a4a42;
@@ -37,7 +38,7 @@ header {
 }
 
 
-  .overlay {
+.overlay {
   position: absolute;
   top: 0%;
   right: 0%;
@@ -63,12 +64,14 @@ header {
   line-height: 75px;
   margin-left: 30px;
 }
+
 .items-about{
   color: #3a4a42;
   font-size: 32px;  
   line-height: 75px;
   margin-left: 30px;
 }
+
 .items-contact{
   color: #3a4a42;
   font-size: 32px;  
@@ -94,6 +97,7 @@ header {
   color: #059f5c;
 
 }
+
 .x{
   margin-left: 420px;
   margin-top: 75px;
@@ -822,7 +826,6 @@ span {
     display: none;
   }
   
-
 }
 
 @media screen and (max-width: 600px) {
@@ -862,7 +865,7 @@ span {
     display: none;
   }
 
-  .rec {
+ .rec {
     display: none;
   }
 
