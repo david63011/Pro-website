@@ -20,21 +20,20 @@ header {
   align-items: center;
 }
 
-.ham-btn1{
+.ham-btn1 {
   background: white;
   color: #3a4a42;
   border: 1px lightgrey solid;
   border-radius: 5px;
   width: 25%;
   height: 100%;
-  cursor:pointer;
+  cursor: pointer;
   margin-top: 20px;
 }
 
 .union {
   margin-right: 6em;
 }
-
 
 .overlay {
   position: absolute;
@@ -44,60 +43,56 @@ header {
   height: 100%;
   background-color: white;
   border: 1px lightgrey solid;
-  }
+}
 
 .items {
   color: #3a4a42;
-  font-size: 32px;  
+  font-size: 32px;
   line-height: 75px;
   margin-left: 30px;
-  }
+}
 
-.items-port{
+.items-port {
   color: #3a4a42;
-  font-size: 32px;  
+  font-size: 32px;
   line-height: 75px;
   margin-left: 30px;
 }
 
-.items-about{
+.items-about {
   color: #3a4a42;
-  font-size: 32px;  
+  font-size: 32px;
   line-height: 75px;
   margin-left: 30px;
 }
 
-.items-contact{
+.items-contact {
   color: #3a4a42;
-  font-size: 32px;  
+  font-size: 32px;
   line-height: 75px;
   margin-left: 30px;
 }
 
-.items-contact:hover{
-  color: #059f5c;
-
-}
-
-.items-about:hover{
+.items-contact:hover {
   color: #059f5c;
 }
 
-.items-port:hover{
+.items-about:hover {
   color: #059f5c;
-
 }
 
-.items-contact:hover{
+.items-port:hover {
   color: #059f5c;
-
 }
 
-.x{
+.items-contact:hover {
+  color: #059f5c;
+}
+
+.x {
   margin-left: 420px;
   margin-top: 75px;
 }
-
 
 .header-logo {
   text-decoration: none;
@@ -723,7 +718,8 @@ span {
   }
 
   .picture-box {
-    background: url(planeleft.svg) no-repeat 0% 20%, url(planeright.svg) no-repeat 100% 100%;
+    background: url(planeleft.svg) no-repeat 0% 20%,
+      url(planeright.svg) no-repeat 100% 100%;
   }
 
   .about-me {
@@ -814,13 +810,13 @@ span {
   }
 
   footer {
-    background: url(greenbox.svg) no-repeat 0% 90%, url(leg.svg) no-repeat 100% 100%;
+    background: url(greenbox.svg) no-repeat 0% 90%,
+      url(leg.svg) no-repeat 100% 100%;
   }
 
-  .overlay{
+  .overlay {
     display: none;
   }
-  
 }
 
 @media screen and (max-width: 600px) {
@@ -860,9 +856,7 @@ span {
     display: none;
   }
 
- .rec {
+  .rec {
     display: none;
   }
-
-
 }
