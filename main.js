@@ -151,6 +151,8 @@ function createCards (index) {
   const liveBtn = document.createElement('a');
   const sourceBtn = document.createElement('a');
   const projectExBtn = document.createElement('button');
+  const seeProBtn = document.createElement('button');
+
 
   projectsTitle.innerText = `${projects[index].title}`;
   projectsTitle.classList.toggle('popup-title');
@@ -165,6 +167,8 @@ function createCards (index) {
 
   paragraphCard.innertext = `${projects[index].description}
   paragraphCard.classList.toggle('popup-paragraph');
+  seeProBtn.textContent = 'See Project';
+
   liveBtn.textContent= 'See Live'
   liveSiteBtn.href = `${projects[index].linkVersion}`;
   sourceBtn.textContent= 'See Source'
@@ -179,8 +183,7 @@ div.appendChild(projectsTitle);
   div.appendChild(paragraphCard);
   div.appendChild(liveBtn);
   div.appendChild(sourceBtn);
-  div.appendChild(projectExBtn);
-  myProjectsSection.appendChild(div);
+  div.appendChild(seeProBtn);
 
   
   projectExBtn.addEventListener('click', () => {
@@ -189,4 +192,8 @@ div.appendChild(projectsTitle);
     document.body.style.background = '#fff';
    
   });
+
+
+
+
 }
