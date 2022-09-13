@@ -5,11 +5,7 @@ const cancel = document.querySelector('.cancel');
 const port = document.querySelector('.items-port');
 const contact = document.querySelector('.items-contact');
 const about = document.querySelector('.items-about');
-
-
-
-const myProjectsSection = document.querySelector('#projects');
-
+const objBtnPopup = document.querySelectorAll('.btn-popup');
 
 hamburger.addEventListener('click', () => {
   menu.style.display = 'block';
@@ -35,7 +31,7 @@ contact.addEventListener('click', () => {
 const projects = [
   {
     id: 0,
-    url: '',
+    url: 'green.jpg',
     title: 'Keeping track of hundreds of components',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
   industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -53,7 +49,7 @@ const projects = [
   },
   {
     id: 1,
-    url: '',
+    url: 'green.jpg',
     title: 'Keeping track of hundreds of components 1',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
   industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -71,7 +67,7 @@ const projects = [
   },
   {
     id: 2,
-    url: '',
+    url: 'green.jpg',
     title: 'Keeping track of hundreds of components 2',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
   industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -89,7 +85,7 @@ const projects = [
   },
   {
     id: 3,
-    url: '',
+    url: 'green.jpg',
     title: 'Keeping track of hundreds of components 3',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
   industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -107,7 +103,7 @@ const projects = [
   },
   {
     id: 4,
-    url: '',
+    url: 'green.jpg',
     title: 'Keeping track of hundreds of components 4',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
   industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -125,7 +121,7 @@ const projects = [
   },
   {
     id: 5,
-    url: '',
+    url: 'green.jpg',
     title: 'Keeping track of hundreds of components 5',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
   industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -143,57 +139,42 @@ const projects = [
   },
 ];
 
-function createCards (index) {
-  const div = document.createElement('div');
-  const projectsTitle = document.createElement('h3');
-  const languages = document.createElement('div');
-  const paragraphCard = document.createElement('p');
-  const liveBtn = document.createElement('a');
-  const sourceBtn = document.createElement('a');
-  const projectExBtn = document.createElement('button');
-  const seeProBtn = document.createElement('button');
-
-
-  projectsTitle.innerText = `${projects[index].title}`;
-  projectsTitle.classList.toggle('popup-title');
-
-  languages.innerText = `<div>${projects[index].tech1}</div>
-
-  <div>${projects[index].tech2}</div>;
-  <div>${projects[index].tech3}</div>;
-  <div>${projects[index].tech4}</div>;
+const popup = (index) => `<article class="popup">
+<button type="button" class="btn-popup">
+  <img src="Icon-Cancel.svg" alt="cancel icon" />
+</button>
+<div class="card-popup">
+  <img src=${projects[index].url} alt="" />
+</div>
+<h2 class="popup-title">${projects[index].title}</h2>
+<ul class="popup-tags">
+  <li class="tag-popup">${projects[index].tecnologies.tech1}</li>
+  <li class="tag-popup">${projects[index].tecnologies.tech2}</li>
+  <li class="tag-popup">${projects[index].tecnologies.tech3}</li>
+  <li class="tag-popup">${projects[index].tecnologies.tech4}</li>
+</ul>
+<p class="popup-paragraph">${projects[index].description}</p>
   
-  languages.classList.toggle('popup-languages');
+<div class="pop-up-btn">
+  <a href=${projects[index].linkVersion} class="pop-up-btn-info">
+    See Live
+    <img src="" alt="" />
+  </a>
+  <a href="${projects[index].linkSource}" class="pop-up-btn-info">
+    See Sources
+    <img src="kitty.png" alt="" />
+  </a>
+</div>
 
-  paragraphCard.innertext = `${projects[index].description}
-  paragraphCard.classList.toggle('popup-paragraph');
-  seeProBtn.textContent = 'See Project';
+<script src="main2.js"></script>
+</article> `;
 
-  liveBtn.textContent= 'See Live'
-  liveSiteBtn.href = `${projects[index].linkVersion}`;
-  sourceBtn.textContent= 'See Source'
-  sourceBtn.href = `${projects[index].linkSource}`;
-  projectExBtn.style.backgroundImage = "URL('cancel.png')";
-  projectExBtn.classList.add('popup-exit');
-  div.classList.toggle('popup');
- 
-
-div.appendChild(projectsTitle);
-  div.appendChild(languages);
-  div.appendChild(paragraphCard);
-  div.appendChild(liveBtn);
-  div.appendChild(sourceBtn);
-  div.appendChild(seeProBtn);
-
-  
-  projectExBtn.addEventListener('click', () => {
-    overlay.style.display = 'none';
-
-    document.body.style.background = '#fff';
-   
+for (let i = 0; i < objBtnPopup.length; i += 1) {
+  objBtnPopup[i].addEventListener('click', () => {
+    document.body.innerHTML = popup(i);
+    const deleteBtn = document.querySelector('.btn-popup');
+    deleteBtn.addEventListener('click', () => {
+      overlay.style.display = 'none';
+    });
   });
-
-
-
-
 }

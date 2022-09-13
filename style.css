@@ -716,7 +716,8 @@ span {
   }
 
   .picture-box {
-    background: url(planeleft.svg) no-repeat 0% 20%, url(planeright.svg) no-repeat 100% 100%;
+    background: url(planeleft.svg) no-repeat 0% 20%,
+      url(planeright.svg) no-repeat 100% 100%;
   }
 
   .about-me {
@@ -807,7 +808,8 @@ span {
   }
 
   footer {
-    background: url(greenbox.svg) no-repeat 0% 90%, url(leg.svg) no-repeat 100% 100%;
+    background: url(greenbox.svg) no-repeat 0% 90%,
+      url(leg.svg) no-repeat 100% 100%;
   }
 
   .overlay {
