@@ -10,6 +10,8 @@ body {
   background: #fff;
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
+  scroll-behavior: smooth;
+
 }
 
 header {
@@ -18,10 +20,85 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.ham-btn1{
+  background: white;
+  color: #3a4a42;
+  border: 1px lightgrey solid;
+  border-radius: 5px;
+  width: 25%;
+  height: 100%;
+  cursor:pointer;
+  margin-top: 20px;
+
+}
 
 .union {
   margin-right: 6em;
 }
+
+
+  .overlay {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: 1px lightgrey solid;
+  
+}
+
+.items {
+  color: #3a4a42;
+  font-size: 32px;  
+  line-height: 75px;
+  margin-left: 30px;
+  
+
+}
+
+.items-port{
+  color: #3a4a42;
+  font-size: 32px;  
+  line-height: 75px;
+  margin-left: 30px;
+}
+.items-about{
+  color: #3a4a42;
+  font-size: 32px;  
+  line-height: 75px;
+  margin-left: 30px;
+}
+.items-contact{
+  color: #3a4a42;
+  font-size: 32px;  
+  line-height: 75px;
+  margin-left: 30px;
+}
+
+.items-contact:hover{
+  color: #059f5c;
+
+}
+
+.items-about:hover{
+  color: #059f5c;
+}
+
+.items-port:hover{
+  color: #059f5c;
+
+}
+
+.items-contact:hover{
+  color: #059f5c;
+
+}
+.x{
+  margin-left: 420px;
+  margin-top: 75px;
+}
+
 
 .header-logo {
   text-decoration: none;
@@ -30,6 +107,7 @@ header {
   font-size: 20px;
   line-height: 28px;
   color: #28352f;
+  margin-top: 20px;
 }
 
 .greet {
@@ -57,7 +135,7 @@ header {
 }
 
 .hi-there2 {
-  color: #36a57e;
+  color: #36b37f;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -103,12 +181,10 @@ li {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  margin-right: 1.5em;
   margin-top: 2em;
 }
 
 .Indicator {
-  margin-right: 3.2em;
   margin-bottom: 4em;
 }
 
@@ -143,7 +219,7 @@ li {
   padding: 1em 0.5em;
   margin: 1em 0.5em;
   border-radius: 5px;
-  color: #477e7e;
+  color: #36b37e;
   border-width: 1px;
   line-height: 16px;
 }
@@ -224,7 +300,7 @@ li {
 }
 
 .see-project-btn {
-  background-color: #36a57e;
+  background-color: #36b37f;
   color: #ebf0ee;
   font-size: 20px;
   border-radius: 5px;
@@ -436,7 +512,7 @@ textarea {
 }
 
 .send-btn {
-  background-color: #36a57e;
+  background-color: #36b37f;
   color: #ffff;
   border-radius: 4px;
   font-weight: 400;
@@ -518,7 +594,7 @@ textarea {
 }
 
 span {
-  color: #36a57e;
+  color: #36b37e;
   font-size: 48px;
   line-height: 60px;
 }
@@ -581,7 +657,7 @@ span {
 }
 
 .touch-btn2 {
-  background-color: #36a57e;
+  background-color: #36b37c;
   color: #ebf0ee;
   font-size: 17px;
   border-radius: 5px;
@@ -741,6 +817,12 @@ span {
   footer {
     background: url(greenbox.svg) no-repeat 0% 90%, url(leg.svg) no-repeat 100% 100%;
   }
+
+  .overlay{
+    display: none;
+  }
+  
+
 }
 
 @media screen and (max-width: 600px) {
@@ -783,4 +865,6 @@ span {
   .rec {
     display: none;
   }
+
+
 }
