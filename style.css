@@ -222,12 +222,9 @@ ul li {
   line-height: 16px;
 }
 
-
 ul li:first-child {
   margin-left: 0;
 }
-
-
 
 .languages ul li {
   display: inline;
@@ -1014,5 +1011,3 @@ span {
   font-size: 1em;
   line-height: 1.5em;
 }
-
-
