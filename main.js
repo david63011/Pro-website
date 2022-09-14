@@ -5,7 +5,7 @@ const cancel = document.querySelector('.cancel');
 const port = document.querySelector('.items-port');
 const contact = document.querySelector('.items-contact');
 const about = document.querySelector('.items-about');
-const objBtnPopup = document.querySelectorAll('.btn-popup');
+const objBtnPopup = document.querySelectorAll('.see-project-btn');
 
 hamburger.addEventListener('click', () => {
   menu.style.display = 'block';
