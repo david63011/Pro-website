@@ -210,10 +210,6 @@ ul li {
   margin-left: 10px;
 }
 
-ul li:first-child {
-  margin-left: 0;
-}
-
 .cat-things > li {
   background: white;
   font-size: 12px;
@@ -225,6 +221,13 @@ ul li:first-child {
   border-width: 1px;
   line-height: 16px;
 }
+
+
+ul li:first-child {
+  margin-left: 0;
+}
+
+
 
 .languages ul li {
   display: inline;
