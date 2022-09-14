@@ -22,17 +22,14 @@ header {
 
 .ham-btn1 {
   background: white;
-  color: #3a4a42;
-  border: 1px lightgrey solid;
-  border-radius: 5px;
-  width: 25%;
-  height: 100%;
+  border: none;
   cursor: pointer;
-  margin-top: 20px;
 }
 
 .union {
-  margin-right: 6em;
+  float: right;
+  margin: 0 1rem;
+  margin-top: 2em;
 }
 
 .overlay {
@@ -88,8 +85,9 @@ header {
 }
 
 .x {
-  margin-left: 420px;
-  margin-top: 75px;
+  float: right;
+  margin: 0 8.5em;
+  margin-top: 2em;
 }
 
 .header-logo {
@@ -143,6 +141,9 @@ header {
   height: 164px;
 }
 
+.overlaymenu1 {
+  margin-top: 50px;
+}
 .paragraph1 {
   font-size: 20px;
   line-height: 28px;
@@ -909,7 +910,6 @@ span {
   color: #3a4a42;
   padding: 0.5em 0.75em 0.5em;
   font-family: Inter, sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 0.75em;
   line-height: 1em;

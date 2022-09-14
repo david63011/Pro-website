@@ -7,11 +7,15 @@ const contact = document.querySelector('.items-contact');
 const about = document.querySelector('.items-about');
 const objBtnPopup = document.querySelectorAll('.see-project-btn');
 
+
+
 hamburger.addEventListener('click', () => {
   menu.style.display = 'block';
   overlay.style.display = 'block';
 });
-
+about.addEventListener('click', () => {
+  overlay.style.display = 'none';
+});
 cancel.addEventListener('click', () => {
   overlay.style.display = 'none';
 });
@@ -20,9 +24,7 @@ port.addEventListener('click', () => {
   overlay.style.display = 'none';
 });
 
-about.addEventListener('click', () => {
-  overlay.style.display = 'none';
-});
+
 
 contact.addEventListener('click', () => {
   overlay.style.display = 'none';
@@ -31,13 +33,18 @@ contact.addEventListener('click', () => {
 const projects = [
   {
     id: 0,
-    url: 'green.jpg',
+    url: 'cali.jpg',
     title: 'Keeping track of hundreds of components',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-  and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
-  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    description: `Lorem Ipsum is simply dummy text of the printing and
+typesetting industry. Lorem Ipsum has been the
+  industry's standard dummy text ever since the 1500s, when an unknown
+printer took a galley of type
+  and scrambled it 1960s with the releaLorem Ipsum is simply dummy
+text of the printing and
+  typesetting industry. Lorem Ipsum has been the industry's standard
+dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it 1960s
+with the relea`,
     tecnologies: {
       tech1: 'Rubi on rails',
       tech2: 'css',
@@ -49,13 +56,18 @@ const projects = [
   },
   {
     id: 1,
-    url: 'green.jpg',
+    url: 'cali.jpg',
     title: 'Keeping track of hundreds of components 1',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-  and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
-  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    description: `Lorem Ipsum is simply dummy text of the printing and
+typesetting industry. Lorem Ipsum has been the
+  industry's standard dummy text ever since the 1500s, when an unknown
+printer took a galley of type
+  and scrambled it 1960s with the releaLorem Ipsum is simply dummy
+text of the printing and
+  typesetting industry. Lorem Ipsum has been the industry's standard
+dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it 1960s
+with the relea`,
     tecnologies: {
       tech1: 'Rubi on rails',
       tech2: 'css',
@@ -67,13 +79,18 @@ const projects = [
   },
   {
     id: 2,
-    url: 'green.jpg',
+    url: 'cali.jpg',
     title: 'Keeping track of hundreds of components 2',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-  and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
-  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    description: `Lorem Ipsum is simply dummy text of the printing and
+typesetting industry. Lorem Ipsum has been the
+  industry's standard dummy text ever since the 1500s, when an unknown
+printer took a galley of type
+  and scrambled it 1960s with the releaLorem Ipsum is simply dummy
+text of the printing and
+  typesetting industry. Lorem Ipsum has been the industry's standard
+dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it 1960s
+with the relea`,
     tecnologies: {
       tech1: 'Rubi on rails',
       tech2: 'css',
@@ -85,13 +102,18 @@ const projects = [
   },
   {
     id: 3,
-    url: 'green.jpg',
+    url: 'cali.jpg',
     title: 'Keeping track of hundreds of components 3',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-  and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
-  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    description: `Lorem Ipsum is simply dummy text of the printing and
+typesetting industry. Lorem Ipsum has been the
+  industry's standard dummy text ever since the 1500s, when an unknown
+printer took a galley of type
+  and scrambled it 1960s with the releaLorem Ipsum is simply dummy
+text of the printing and
+  typesetting industry. Lorem Ipsum has been the industry's standard
+dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it 1960s
+with the relea`,
     tecnologies: {
       tech1: 'Rubi on rails',
       tech2: 'css',
@@ -103,13 +125,18 @@ const projects = [
   },
   {
     id: 4,
-    url: 'green.jpg',
+    url: 'cali.jpg',
     title: 'Keeping track of hundreds of components 4',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-  and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
-  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    description: `Lorem Ipsum is simply dummy text of the printing and
+typesetting industry. Lorem Ipsum has been the
+  industry's standard dummy text ever since the 1500s, when an unknown
+printer took a galley of type
+  and scrambled it 1960s with the releaLorem Ipsum is simply dummy
+text of the printing and
+  typesetting industry. Lorem Ipsum has been the industry's standard
+dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it 1960s
+with the relea`,
     tecnologies: {
       tech1: 'Rubi on rails',
       tech2: 'css',
@@ -121,13 +148,18 @@ const projects = [
   },
   {
     id: 5,
-    url: 'green.jpg',
+    url: 'cali.jpg',
     title: 'Keeping track of hundreds of components 5',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-  and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
-  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    description: `Lorem Ipsum is simply dummy text of the printing and
+typesetting industry. Lorem Ipsum has been the
+  industry's standard dummy text ever since the 1500s, when an unknown
+printer took a galley of type
+  and scrambled it 1960s with the releaLorem Ipsum is simply dummy
+text of the printing and
+  typesetting industry. Lorem Ipsum has been the industry's standard
+dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it 1960s
+with the relea`,
     tecnologies: {
       tech1: 'Rubi on rails',
       tech2: 'css',
@@ -139,7 +171,7 @@ const projects = [
   },
 ];
 
-const popup = (index) => `<article class="popup">
+const popup2 = (index) => `<article class="popup">
 <button type="button" class="btn-popup-close">
   <img src="Icon-Cancel.svg" alt="cancel icon" />
 </button>
@@ -154,7 +186,7 @@ const popup = (index) => `<article class="popup">
   <li class="tag-popup">${projects[index].tecnologies.tech4}</li>
 </ul>
 <p class="popup-paragraph">${projects[index].description}</p>
-  
+
 <div class="pop-up-btn">
   <a href=${projects[index].linkVersion} class="pop-up-btn-info">
     See Live
@@ -165,16 +197,24 @@ const popup = (index) => `<article class="popup">
     <img src="kitty.png" alt="" />
   </a>
 </div>
-
 <script src="main2.js"></script>
 </article> `;
 
 for (let i = 0; i < objBtnPopup.length; i += 1) {
   objBtnPopup[i].addEventListener('click', () => {
-    document.body.innerHTML = popup(i);
-    const deleteBtn = document.querySelector('.btn-popup-close');
-    deleteBtn.addEventListener('click', () => {
-      overlay.style.display = 'none';
-    });
+    document.body.innerHTML = popup2(i);
   });
 }
+
+const section = document.querySelector('popup')
+const wrapper = document.createElement('div')
+
+section.parentNode.insertBefore(wrapper, section)
+
+wrapper.appendChild(section)
+
+objBtnPopup.addEventListener('click', () => {
+  wrapper.style.display = 'none';
+});
+
+
