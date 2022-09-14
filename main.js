@@ -140,7 +140,7 @@ const projects = [
 ];
 
 const popup = (index) => `<article class="popup">
-<button type="button" class="btn-popup">
+<button type="button" class="btn-popup-close">
   <img src="Icon-Cancel.svg" alt="cancel icon" />
 </button>
 <div class="card-popup">
@@ -172,7 +172,7 @@ const popup = (index) => `<article class="popup">
 for (let i = 0; i < objBtnPopup.length; i += 1) {
   objBtnPopup[i].addEventListener('click', () => {
     document.body.innerHTML = popup(i);
-    const deleteBtn = document.querySelector('.btn-popup');
+    const deleteBtn = document.querySelector('.btn-popup-close');
     deleteBtn.addEventListener('click', () => {
       overlay.style.display = 'none';
     });
