@@ -173,10 +173,10 @@ const popup2 = (index) => `<article class="popup">
 <button type="button" class="btn-popup-close">
   <img src="Icon-Cancel.svg" alt="cancel icon" />
 </button>
-<div class="card-popup">
-  <img src=${projects[index].url} alt="" />
+<div class="card-popup bigpop">
+  <img class="cali" src=${projects[index].url} alt="" />
 </div>
-<h2 class="popup-title">${projects[index].title}</h2>
+<h2 class="popup-title bigtitle">${projects[index].title}</h2>
 <ul class="popup-tags">
   <li class="tag-popup">${projects[index].tecnologies.tech1}</li>
   <li class="tag-popup">${projects[index].tecnologies.tech2}</li>
@@ -190,7 +190,7 @@ const popup2 = (index) => `<article class="popup">
     See Live
     <img src="" alt="" />
   </a>
-  <a href="${projects[index].linkSource}" class="pop-up-btn-info">
+  <a href="${projects[index].linkSource}" class="pop-up-btn-info bigone">
     See Sources
     <img src="kitty.png" alt="" />
   </a>
