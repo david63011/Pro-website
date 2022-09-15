@@ -6,6 +6,7 @@ const port = document.querySelector('.items-port');
 const contact = document.querySelector('.items-contact');
 const about = document.querySelector('.items-about');
 const objBtnPopup = document.querySelectorAll('.see-project-btn');
+
 hamburger.addEventListener('click', () => {
   menu.style.display = 'block';
   overlay.style.display = 'block';
@@ -53,7 +54,7 @@ with the relea`,
   },
   {
     id: 1,
-    url: 'cali.jpg',
+    url: 'cali2.jpg',
     title: 'Keeping track of hundreds of components 1',
     description: `Lorem Ipsum is simply dummy text of the printing and
 typesetting industry. Lorem Ipsum has been the
@@ -76,7 +77,7 @@ with the relea`,
   },
   {
     id: 2,
-    url: 'cali.jpg',
+    url: 'cali2.jpg',
     title: 'Keeping track of hundreds of components 2',
     description: `Lorem Ipsum is simply dummy text of the printing and
 typesetting industry. Lorem Ipsum has been the
@@ -99,7 +100,7 @@ with the relea`,
   },
   {
     id: 3,
-    url: 'cali.jpg',
+    url: 'cali2.jpg',
     title: 'Keeping track of hundreds of components 3',
     description: `Lorem Ipsum is simply dummy text of the printing and
 typesetting industry. Lorem Ipsum has been the
@@ -122,7 +123,7 @@ with the relea`,
   },
   {
     id: 4,
-    url: 'cali.jpg',
+    url: 'cali2.jpg',
     title: 'Keeping track of hundreds of components 4',
     description: `Lorem Ipsum is simply dummy text of the printing and
 typesetting industry. Lorem Ipsum has been the
@@ -145,7 +146,7 @@ with the relea`,
   },
   {
     id: 5,
-    url: 'cali.jpg',
+    url: 'cali2.jpg',
     title: 'Keeping track of hundreds of components 5',
     description: `Lorem Ipsum is simply dummy text of the printing and
 typesetting industry. Lorem Ipsum has been the
@@ -200,9 +201,12 @@ const popup2 = (index) => `<article class="popup">
 for (let i = 0; i < objBtnPopup.length; i += 1) {
   objBtnPopup[i].addEventListener('click', () => {
     document.body.innerHTML = popup2(i);
+    const btnClose = document.querySelector('.btn-popup-close');
+    btnClose.addEventListener('click', () => {
+      window.location.reload();
+    });
   });
 }
-
 const formSection = document.getElementById('davididhere');
 const mailInput = document.getElementById('email');
 const messageError = document.getElementById('error-messages');
