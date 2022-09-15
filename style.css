@@ -944,6 +944,14 @@ span {
   border-radius: 3px;
 }
 
+.popup-paragraph {
+  color: #344563;
+  text-align: left;
+  font-family: Inter, sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
 .pop-up-btn-info > img {
   margin-left: 1.3em;
 }
@@ -1002,11 +1010,4 @@ span {
   }
 }
 
-.popup-paragraph {
-  color: #344563;
-  text-align: left;
-  font-family: Inter, sans-serif;
-  font-size: 1em;
-  line-height: 1.5em;
-}
 
