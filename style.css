@@ -205,6 +205,7 @@ li {
 .column2 {
   background-color: white;
 }
+
 ul li {
   margin-left: 10px;
 }
@@ -728,8 +729,7 @@ span {
   }
 
   .picture-box {
-    background: url(planeleft.svg) no-repeat 0% 20%,
-      url(planeright.svg) no-repeat 100% 100%;
+    background: url(planeleft.svg) no-repeat 0% 20%, url(planeright.svg) no-repeat 100% 100%;
   }
 
   .about-me {
