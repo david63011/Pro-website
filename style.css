@@ -890,7 +890,6 @@ span {
 }
 
 .card-popup > img {
-  
   width: 100%;
   min-height: 220px;
   object-fit: cover;
@@ -936,7 +935,7 @@ span {
   border: none;
   width: fit-content;
   align-self: center;
-  background: #36B37E;
+  background: #36b37e;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 2px;
@@ -984,7 +983,7 @@ span {
     grid-row: 2 / 3;
   }
 
-  .bigpop{
+  .bigpop {
     margin-bottom: 10px;
   }
 
@@ -1009,11 +1008,11 @@ span {
     margin-bottom: 4em;
   }
 
-  .bigone{
+  .bigone {
     margin-right: 180px;
   }
 
-  .cali{
+  .cali {
     height: 508px;
   }
 }
