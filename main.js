@@ -6,16 +6,15 @@ const port = document.querySelector('.items-port');
 const contact = document.querySelector('.items-contact');
 const about = document.querySelector('.items-about');
 const objBtnPopup = document.querySelectorAll('.see-project-btn');
-
-
-
 hamburger.addEventListener('click', () => {
   menu.style.display = 'block';
   overlay.style.display = 'block';
 });
+
 about.addEventListener('click', () => {
   overlay.style.display = 'none';
 });
+
 cancel.addEventListener('click', () => {
   overlay.style.display = 'none';
 });
@@ -23,8 +22,6 @@ cancel.addEventListener('click', () => {
 port.addEventListener('click', () => {
   overlay.style.display = 'none';
 });
-
-
 
 contact.addEventListener('click', () => {
   overlay.style.display = 'none';
@@ -218,4 +215,3 @@ formSection.addEventListener('submit', (e) => {
     messageError.textContent = 'The email must be in lowercase';
   }
 });
-
