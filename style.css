@@ -458,7 +458,7 @@ li {
   border-width: 1px;
   border-color: #d0d9d4;
   margin-top: 5em;
-  margin-left: 5em;
+  margin-left: 5.8em;
 }
 
 .name-last-text-box {
@@ -505,18 +505,23 @@ textarea {
 }
 
 .send-btn {
-  background-color: #36b37f;
-  color: #ffff;
-  border-radius: 4px;
-  font-weight: 400;
-  font-size: 16px;
-  padding: 5px;
-  margin: 14px;
-  width: 129px;
+  background-color: #36b37c;
+  color: #ebf0ee;
+  font-size: 17px;
+  border-radius: 5px;
   height: 48px;
-  margin-bottom: 3em;
-  margin-left: 10em;
+  width: 129px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
   border: none;
+  font-weight: 400;
+  margin-left: 4.3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 9em;
+
 }
 
 .icon-row-footer {
@@ -782,9 +787,7 @@ span {
     border-width: 1px;
   }
 
-  .send-btn {
-    display: none;
-  }
+
 
   .Indicator2 {
     display: none;
@@ -1004,9 +1007,12 @@ span {
   font-size: 1em;
   line-height: 1.5em;
 }
+
 ul li {
   margin-left: 10px;
 }
+
 ul li:first-child {
   margin-left: 0;
 }
+

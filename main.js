@@ -206,15 +206,16 @@ for (let i = 0; i < objBtnPopup.length; i += 1) {
   });
 }
 
-const section = document.querySelector('popup')
-const wrapper = document.createElement('div')
+const formSection = document.getElementById('davididhere');
+const mailInput = document.getElementById('email');
+const messageError = document.getElementById('error-messages');
 
-section.parentNode.insertBefore(wrapper, section)
-
-wrapper.appendChild(section)
-
-objBtnPopup.addEventListener('click', () => {
-  wrapper.style.display = 'none';
+formSection.addEventListener('submit', (e) => {
+  if (mailInput.value === mailInput.value.toLowerCase()) {
+    messageError.textContent = '';
+  } else {
+    e.preventDefault();
+    messageError.textContent = 'The email must be in lowercase';
+  }
 });
-
 
