@@ -6,6 +6,7 @@ const port = document.querySelector('.items-port');
 const contact = document.querySelector('.items-contact');
 const about = document.querySelector('.items-about');
 const objBtnPopup = document.querySelectorAll('.see-project-btn');
+
 hamburger.addEventListener('click', () => {
   menu.style.display = 'block';
   overlay.style.display = 'block';
@@ -53,7 +54,7 @@ with the relea`,
   },
   {
     id: 1,
-    url: 'cali.jpg',
+    url: 'cali2.jpg',
     title: 'Keeping track of hundreds of components 1',
     description: `Lorem Ipsum is simply dummy text of the printing and
 typesetting industry. Lorem Ipsum has been the
@@ -76,7 +77,7 @@ with the relea`,
   },
   {
     id: 2,
-    url: 'cali.jpg',
+    url: 'cali2.jpg',
     title: 'Keeping track of hundreds of components 2',
     description: `Lorem Ipsum is simply dummy text of the printing and
 typesetting industry. Lorem Ipsum has been the
@@ -99,7 +100,7 @@ with the relea`,
   },
   {
     id: 3,
-    url: 'cali.jpg',
+    url: 'cali2.jpg',
     title: 'Keeping track of hundreds of components 3',
     description: `Lorem Ipsum is simply dummy text of the printing and
 typesetting industry. Lorem Ipsum has been the
@@ -122,7 +123,7 @@ with the relea`,
   },
   {
     id: 4,
-    url: 'cali.jpg',
+    url: 'cali2.jpg',
     title: 'Keeping track of hundreds of components 4',
     description: `Lorem Ipsum is simply dummy text of the printing and
 typesetting industry. Lorem Ipsum has been the
@@ -145,7 +146,7 @@ with the relea`,
   },
   {
     id: 5,
-    url: 'cali.jpg',
+    url: 'cali2.jpg',
     title: 'Keeping track of hundreds of components 5',
     description: `Lorem Ipsum is simply dummy text of the printing and
 typesetting industry. Lorem Ipsum has been the
@@ -172,10 +173,10 @@ const popup2 = (index) => `<article class="popup">
 <button type="button" class="btn-popup-close">
   <img src="Icon-Cancel.svg" alt="cancel icon" />
 </button>
-<div class="card-popup">
-  <img src=${projects[index].url} alt="" />
+<div class="card-popup bigpop">
+  <img class="cali" src=${projects[index].url} alt="" />
 </div>
-<h2 class="popup-title">${projects[index].title}</h2>
+<h2 class="popup-title bigtitle">${projects[index].title}</h2>
 <ul class="popup-tags">
   <li class="tag-popup">${projects[index].tecnologies.tech1}</li>
   <li class="tag-popup">${projects[index].tecnologies.tech2}</li>
@@ -189,7 +190,7 @@ const popup2 = (index) => `<article class="popup">
     See Live
     <img src="" alt="" />
   </a>
-  <a href="${projects[index].linkSource}" class="pop-up-btn-info">
+  <a href="${projects[index].linkSource}" class="pop-up-btn-info bigone">
     See Sources
     <img src="kitty.png" alt="" />
   </a>
@@ -200,9 +201,12 @@ const popup2 = (index) => `<article class="popup">
 for (let i = 0; i < objBtnPopup.length; i += 1) {
   objBtnPopup[i].addEventListener('click', () => {
     document.body.innerHTML = popup2(i);
+    const btnClose = document.querySelector('.btn-popup-close');
+    btnClose.addEventListener('click', () => {
+      window.location.reload();
+    });
   });
 }
-
 const formSection = document.getElementById('davididhere');
 const mailInput = document.getElementById('email');
 const messageError = document.getElementById('error-messages');
@@ -215,3 +219,11 @@ formSection.addEventListener('submit', (e) => {
     messageError.textContent = 'The email must be in lowercase';
   }
 });
+
+const myObj = {
+  name: 'brad',
+  email: '',
+  message: '',
+};
+const myObj1 = JSON.stringify(myObj);
+localStorage.setItem('myObj', myObj1);
