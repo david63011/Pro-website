@@ -945,7 +945,6 @@ span {
 }
 
 .pop-up-btn-info > img {
-  margin-left: 1.3em;
 }
 
 @media (min-width: 1050px) {
@@ -1009,7 +1008,7 @@ span {
   }
 
   .bigone {
-    margin-right: 200px;
+    margin-right: 220px;
   }
 
   .cali {

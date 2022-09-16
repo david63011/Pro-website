@@ -219,3 +219,24 @@ formSection.addEventListener('submit', (e) => {
     messageError.textContent = 'The email must be in lowercase';
   }
 });
+
+const storageForm = {
+  name: '',
+  email: '',
+  message: '',
+};
+
+formSection.addEventListener('save', () => {
+  storageForm.name = document.getElementById('full-name').value;
+  storageForm.email = document.getElementById('email').value;
+  storageForm.message = document.getElementById('text-box').value;
+  localStorage.setItem('myStore', JSON.stringify(storageForm));
+});
+
+const storObj = JSON.parse(localStorage.getItem('myStore'));
+
+document.getElementById('full-name').value = storObj.name;
+document.getElementById('email').value = storObj.email;
+document.getElementById('text-box').value = storObj.message;
+
+
