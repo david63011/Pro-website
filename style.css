@@ -925,7 +925,7 @@ span {
 
 .pop-up-btn {
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
 }
 
 .pop-up-btn-info {
@@ -944,8 +944,7 @@ span {
   border-radius: 3px;
 }
 
-.pop-up-btn-info > img {
-}
+
 
 @media (min-width: 1050px) {
   .tag-popup {
@@ -1007,9 +1006,7 @@ span {
     margin-bottom: 4em;
   }
 
-  .bigone {
-    margin-right: 220px;
-  }
+ 
 
   .cali {
     height: 508px;
