@@ -225,5 +225,5 @@ const myObj = {
   email: '',
   message: '',
 };
-const myObj1 = JSON.stringify(myObj)
-localStorage.setItem('myObj', myObj1)
+const myObj1 = JSON.stringify(myObj);
+localStorage.setItem('myObj', myObj1);

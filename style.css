@@ -944,8 +944,6 @@ span {
   border-radius: 3px;
 }
 
-
-
 @media (min-width: 1050px) {
   .tag-popup {
     background: #ebf0ee;
@@ -1005,8 +1003,6 @@ span {
     grid-column: 1 / -1;
     margin-bottom: 4em;
   }
-
- 
 
   .cali {
     height: 508px;
