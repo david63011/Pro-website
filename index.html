@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="style.css" />
 
-    <title>David Underwood Home Page</title>
+    <title>David Underwood's Website</title>
+    
   </head>
   <body>
     <header>
@@ -14,28 +16,30 @@
         <h3>Welcome</h3>
       </a>
       <nav>
-        <img class="union" src="Union.png" alt="Hamburger" />
+        <button type="button" class="ham-btn1">
+          <img class="union" src="Union.png" alt="menu link" />
+        </button>
       </nav>
     </header>
 
     <div class="greet">
       <div class="top-row-one">
         <h2 class="porto">Portoflio</h2>
-        <h2 class="about-top">About</h2>
-        <h2 class="con">Contact</h2>
+        <h3 class="about-top">About</h3>
+        <h4 class="con">Contact</h4>
       </div>
       <div class="text-box">
-        <h3 class="hi-there">Hey there. I’m <br />David</h3>
-        <h3 class="hi-there2">
+        <h1 class="hi-there">Hey there. I’m <br />David</h1>
+        <h2 class="hi-there2">
           I’m a software <br />
           developer
-        </h3>
+        </h2>
       </div>
       <div class="greeting2">
-        <h3 class="header-title">Hey there. I’m David.</h3>
-        <h3>
+        <h1 class="header-title">Hey there. I’m David.</h1>
+        <h1>
           <span>I’m a software developer</span>
-        </h3>
+        </h1>
       </div>
       <p class="paragraph1">
         I can help you build a product, <br />
@@ -84,13 +88,13 @@
           My Recent <br />
           Works
         </h1>
-        <img class="Indicator" src="Indicator.png" alt="" />
+        <img class="Indicator" src="Indicator.png" alt="green line" />
       </div>
     </div>
 
     <h2 class="works2">My Recent Works</h2>
-
-    <section class="grid-containers">
+    <!--hero section start-->
+    <section id="grid-containers2" class="grid-containers">
       <div class="container">
         <div class="column1"></div>
         <div class="column2">
@@ -208,8 +212,8 @@
         </div>
       </div>
     </section>
-
-    <div class="picture-box">
+    <!--about me section start-->
+    <div id="about" class="picture-box">
       <section class="about">
         <div class="about-me">About Me</div>
       </section>
@@ -247,7 +251,7 @@
         <li>
           <div class="type-of-cards">
             <div class="cat-images">
-              <img src="ball.svg" alt="" />
+              <img src="ball.svg" alt="picture of globe" />
             </div>
 
             <h2 class="cat-title">Languages</h2>
@@ -264,7 +268,7 @@
         <li>
           <div class="type-of-cards">
             <div class="cat-images">
-              <img src="frame.svg" alt="" />
+              <img src="frame.svg" alt="picture of globe" />
             </div>
 
             <h2 class="cat-title">Frameworks</h2>
@@ -283,7 +287,7 @@
         <li>
           <div class="type-of-cards">
             <div class="cat-images">
-              <img src="ball.svg" alt="" />
+              <img src="ball.svg" alt="picture of globe" />
             </div>
 
             <h2 class="cat-title">Skills</h2>
@@ -303,12 +307,12 @@
     <footer class="contactpage">
       <section class="projects-end">
         <h2 class="textline1">I'm always</h2>
-        <h2 class="textline2">interested in</h2>
-        <h2 class="textline3">hearing about</h2>
-        <h2 class="textline4">new projects, so</h2>
-        <h2 class="textline5">if you'd like to</h2>
-        <h2 class="textline6">chat please get</h2>
-        <h2 class="textline7">in touch</h2>
+        <h3 class="textline2">interested in</h3>
+        <h4 class="textline3">hearing about</h4>
+        <h5 class="textline4">new projects, so</h5>
+        <h6 class="textline5">if you'd like to</h6>
+        <h6 class="textline6">chat please get</h6>
+        <h6 class="textline7">in touch</h6>
       </section>
       <section class="projects-2-big">
         <div class="new-paragraph">
@@ -316,10 +320,11 @@
           to chat please get in touch.
         </div>
       </section>
-
-      <section class="form-section">
+      <!--contact section start-->
+      <section id="contactpage" class="form-section">
         <div class="form-container">
-          <form action="https://formspree.io/f/myyvzkag" method="post">
+
+          <form action="https://formspree.io/f/myyvzkag" method="post" id="davididhere">
             <ul class="form-info">
               <li>
                 <input
@@ -356,12 +361,14 @@
                 ></textarea>
               </li>
             </ul>
+            <input type="submit" value="Get in touch" class="send-btn" />
+            <small id="error-messages"></small>
           </form>
-          <input type="submit" value="Get in touch" class="send-btn" />
+          
+
         </div>
 
-        <button type="submit" class="touch-btn2">Get in touch</button>
-        <img class="rec" src="rec.png" alt="" />
+        <img class="rec" src="rec.png" alt="long line" />
       </section>
       <div class="icon-row-footer">
         <div class="tweet-connect">
@@ -383,8 +390,31 @@
       <p class="email">david630@gmail.com</p>
 
       <div class="black">
-        <img class="Indicator2" src="Indicator.png" alt="" />
+        <img class="Indicator2" src="Indicator.png" alt="green line" />
       </div>
     </footer>
+
+    <!--overlay section start-->
+    <div class="overlay">
+      <div class="cancel">
+        <a href="#"
+          ><img class="x" src="cancel.png" alt="close-icon-button"
+        /></a>
+      </div>
+      <ul class="overlaymenu1">
+        <li>
+          <a class="items-port" href="#grid-containers2">Portofolio</a>
+        </li>
+        <li>
+          <a class="items-about" href="#about">About</a>
+        </li>
+        <li>
+          <a class="items-contact" href="#contactpage">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <script src="main.js"></script>
+
   </body>
-</html>
+
+  </html>
