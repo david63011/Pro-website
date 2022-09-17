@@ -221,9 +221,19 @@ formSection.addEventListener('submit', (e) => {
 });
 
 const myObj = {
-  name: 'brad',
-  email: '',
+  UserName: '',
+  Email: '',
   message: '',
 };
-const myObj1 = JSON.stringify(myObj);
-localStorage.setItem('myObj', myObj1);
+
+formSection.addEventListener('change', () => {
+  myObj.UserName = document.getElementById('pleasework').value;
+  myObj.Email = document.getElementById('email').value;
+  myObj.message = document.querySelector('.enter-form').value;
+  localStorage.setItem('savedValue', JSON.stringify(myObj));
+});
+
+const storageObject = JSON.parse(localStorage.getItem('savedValue'));
+document.getElementById('pleasework').value = storageObject.UserName;
+document.getElementById('email').value = storageObject.Email;
+document.querySelector('.enter-form').value = storageObject.message;
