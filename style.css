@@ -28,7 +28,7 @@ header {
 
 .union {
   float: right;
-  margin: 0 2rem;
+
   margin-top: 2em;
 }
 
@@ -467,7 +467,7 @@ ul li:first-child {
   border-width: 1px;
   border-color: #d0d9d4;
   margin-top: 5em;
-  margin-left: 5em;
+  margin-left: 5.8em;
 }
 
 .name-last-text-box {
@@ -514,18 +514,21 @@ textarea {
 }
 
 .send-btn {
-  background-color: #36b37f;
-  color: #ffff;
-  border-radius: 4px;
-  font-weight: 400;
-  font-size: 16px;
-  padding: 5px;
-  margin: 14px;
-  width: 129px;
+  background-color: #36b37c;
+  color: #ebf0ee;
+  font-size: 17px;
+  border-radius: 5px;
   height: 48px;
-  margin-bottom: 3em;
-  margin-left: 10em;
+  width: 129px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
   border: none;
+  font-weight: 400;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 9em;
 }
 
 .icon-row-footer {
@@ -790,10 +793,6 @@ span {
     border-width: 1px;
   }
 
-  .send-btn {
-    display: none;
-  }
-
   .Indicator2 {
     display: none;
   }
@@ -920,13 +919,12 @@ span {
   font-weight: 600;
   font-size: 0.75em;
   line-height: 1em;
-  letter-spacing: 0.03em;
-  border-radius: 0.25em;
+
 }
 
 .pop-up-btn {
   display: flex;
-  justify-content: space-between;
+
 }
 
 .pop-up-btn-info {
@@ -936,7 +934,7 @@ span {
   border: none;
   width: fit-content;
   align-self: center;
-  background: #227452;
+
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 2px;
@@ -945,9 +943,6 @@ span {
   border-radius: 3px;
 }
 
-.pop-up-btn-info > img {
-  margin-left: 1.3em;
-}
 
 @media (min-width: 1050px) {
   .tag-popup {
@@ -960,7 +955,7 @@ span {
     letter-spacing: 0.03em;
     color: #344563;
     border-radius: 0.5em;
-  }
+
 
   .popup {
     display: grid;
@@ -982,6 +977,7 @@ span {
     grid-row: 2 / 3;
   }
 
+
   .popup-title {
     grid-column: 1 / 3;
     grid-row: 3 / 4;
@@ -989,24 +985,15 @@ span {
 
   .pop-up-btn {
     grid-column: 3 / 5;
-    grid-row: 3 / 4;
+
   }
 
   .popup-tags {
     grid-column: 1 /-1;
-    grid-row: 4 / 5;
+
   }
 
   .popup-paragraph {
     grid-column: 1 / -1;
     margin-bottom: 4em;
   }
-}
-
-.popup-paragraph {
-  color: #344563;
-  text-align: left;
-  font-family: Inter, sans-serif;
-  font-size: 1em;
-  line-height: 1.5em;
-}

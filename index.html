@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css" />
 
     <title>David Underwood's Website</title>
+
   </head>
   <body>
     <header>
@@ -322,15 +323,16 @@
       <!--contact section start-->
       <section id="contactpage" class="form-section">
         <div class="form-container">
-          <form action="https://formspree.io/f/myyvzkag" method="post">
+
+          <form action="https://formspree.io/f/myyvzkag" method="post" id="davididhere">
             <ul class="form-info">
               <li>
                 <input
                   type="text"
                   maxlength="30"
                   name="user_name"
-                  class="name-text-box"
-                  id="full-name"
+                  class="name-text-box auburn"
+                  id="pleasework"
                   placeholder="Full Name"
                   required=""
                 />
@@ -348,7 +350,7 @@
               </li>
               <li>
                 <textarea
-                  id="text-box"
+                  id="needtowork"
                   name="message"
                   maxlength="500"
                   class="enter-form"
@@ -359,11 +361,13 @@
                 ></textarea>
               </li>
             </ul>
+            <input type="submit" value="Get in touch" class="send-btn" />
+            <small id="error-messages"></small>
           </form>
-          <input type="submit" value="Get in touch" class="send-btn" />
+          
+
         </div>
 
-        <button type="submit" class="touch-btn2">Get in touch</button>
         <img class="rec" src="rec.png" alt="long line" />
       </section>
       <div class="icon-row-footer">
@@ -412,4 +416,6 @@
 
     <script src="main.js"></script>
   </body>
-</html>
+  <script src="main.js"></script>
+
+  </html>
